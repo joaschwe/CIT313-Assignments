@@ -31,7 +31,7 @@
 		
 		$aryProductArray = unserialize($_SESSION['aryProductArray']);
 	
-	//CORRECTION: $arryProductArray to $aryProductArray
+	//CORRECTION: misspelled variable, changed $arryProductArray to $aryProductArray
 		for ($x = 0; $x < count($aryProductArray); $x++) {
 	?>
     <fieldset>
@@ -54,7 +54,7 @@
                         case 2:
                             echo "/each";
                             break;
-                    } //added closing bracket
+                    } //added closing bracket to end switch function
 				?>
 			</div>
             
