@@ -3,7 +3,7 @@ include_once('webconfig.php');
 include_once(ABSOLUTE_PATH . '/classes/product.class.php');
 include_once(ABSOLUTE_PATH . '/classes/fruit_product.class.php');
 include_once(ABSOLUTE_PATH . '/classes/veggie_product.class.php');
-//added all includes for classes
+//added all includes for classes so the rest of the files can pull the supporting code from the files for the classes
 ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -23,7 +23,7 @@ include_once(ABSOLUTE_PATH . '/classes/veggie_product.class.php');
 	<h2>To begin setting up your produce stand, input the products that you would like to offer.</h2>
 
 	<div class="form-container">
-<!--    deleted single quotes around URL_ROOT-->
+<!--    deleted single quotes around URL_ROOT so php will process correctly -->
 	<form action="<?php echo URL_ROOT . '/add_products_to_inventory.php' ?>" method="post">
 
     <?php
@@ -68,7 +68,7 @@ include_once(ABSOLUTE_PATH . '/classes/veggie_product.class.php');
 
             <?php
             //removed )
-            //added closing bracket }
+            //added closing bracket } to close the functions and enable it to loop through and print the form html 8 times
         }
 	?>
 	
