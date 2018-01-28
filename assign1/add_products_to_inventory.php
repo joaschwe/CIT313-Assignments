@@ -33,18 +33,18 @@ for ($x=0; $x<=7; $x++) {
 	//first, see if the product's name has been set.  If not, skip processing this product.
 	if (!empty($_POST['productname' . $x]))  {
 		
-		//produce item's name is not empty, so process this ite
+		//produce item's name is not empty, so process this site
 		
-		$thisProductName = $_POST['productname' . $x]; //OK
-		$thisProduceType = $_POST['producetype' . $x];  //OK
-		$thisProductPriceType = $_POST['pricetype' . $x];  //OK
-		$thisProductPrice = $_POST['productprice' . $x];  //OK
+		$thisProductName = $_POST['productname' . $x];
+		$thisProduceType = $_POST['producetype' . $x];
+		$thisProductPriceType = $_POST['pricetype' . $x];
+		$thisProductPrice = $_POST['productprice' . $x];
 		
-		echo "Added " . $thisProductName . "<br />";  //OK
+		echo "Added " . $thisProductName . "<br />";
 
         //create an empty produceItem variable
-        //added ='';
-        $produceItem = '';  //necessary?
+        
+        $produceItem = '';  //added = '';
 		
 		switch ($thisProduceType) {
 			case "f": //fruit
@@ -61,8 +61,8 @@ for ($x=0; $x<=7; $x++) {
 		}
 
 
-		if($produceItem->price_type == 2) {//-----
-			$pType = "Each"; //missing semicolon
+		if($produceItem->price_type == 2) {
+			$pType = "Each"; //added semicolon to execute statement
 		}
 		else {
 			$pType = "Per Lb";
@@ -79,7 +79,7 @@ for ($x=0; $x<=7; $x++) {
 	}
 	else {
 		//stop the loop at the first empty product name
-		break;	//<--but if you skip one it stops? why would you do this?
+		break;	//<--but if you skip one and just start adding info to fields in the middle of the form it stops? why would you do this?
 	}
 	
 }
