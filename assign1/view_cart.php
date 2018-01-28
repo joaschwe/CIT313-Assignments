@@ -39,7 +39,7 @@
 
 		$thisProduct = $aryProductsArray[$aryCartItemArray[0]]; //CORRECTION: variable name misspelled and missing semicolon to execute statement
 
-		echo "<b>" . $thisProduct->product_name . "</b>" . " Qty: " . $aryCartItemArray[0] . "<br />";
+		echo "<b>" . $thisProduct->product_name . "</b>" . " Qty: " . $aryCartItemArray[0] . "<br />"; // <-- this is where my last error is
 
 	}
 
