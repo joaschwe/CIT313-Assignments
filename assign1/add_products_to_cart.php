@@ -15,7 +15,7 @@ This page is adding each inventory to the inventory array.  Once it's finished, 
 	include_once('webconfig.php');
 	include_once(ABSOLUTE_PATH . '/classes/product.class.php');
 	include_once(ABSOLUTE_PATH . '/classes/veggie_product.class.php');
-include_once(ABSOLUTE_PATH . '/classes/fruit_product.class.php'); //was missing reference to fruit class file
+include_once(ABSOLUTE_PATH . '/classes/fruit_product.class.php'); //added missing include to fruit class file so this file can pull the supporting code
 	session_start();
 	
 	//unset the current cart array in session and start fresh
