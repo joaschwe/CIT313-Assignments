@@ -15,7 +15,7 @@ This page is adding each inventory to the inventory array.  Once it's finished, 
 	include_once('webconfig.php');
 	include_once(ABSOLUTE_PATH . '/classes/product.class.php');
 	include_once(ABSOLUTE_PATH . '/classes/veggie_product.class.php');
-include_once(ABSOLUTE_PATH . '/classes/fruit_product.class.php'); //added missing include to fruit class file so this file can pull the supporting code
+	include_once(ABSOLUTE_PATH . '/classes/fruit_product.class.php'); //missing include for fruit class file
 	session_start();
 	
 	//unset the current cart array in session and start fresh
@@ -24,11 +24,11 @@ include_once(ABSOLUTE_PATH . '/classes/fruit_product.class.php'); //added missin
 	$aryCartArray = array();
 	
 	//retrieve the inventory array from session
-	$aryProductsArray = unserialize($_SESSION['aryProductArray']);
+	$aryProductArray = unserialize($_SESSION['aryProductArray']); //misspelled variable, was $aryProductsArray
 	
 
 	
-	for ($x=0; $x<count($aryProductsArray); $x++) { //misspelled variable, was $aryProductArray
+	for ($x=0; $x<count($aryProductArray); $x++) {
 		
 		//first, see if the product's quantity has a value
 		if (!empty($_POST['quantity' . $x]))  {
@@ -49,8 +49,7 @@ include_once(ABSOLUTE_PATH . '/classes/fruit_product.class.php'); //added missin
 
 	//if the cart array is not empty, put it into the Session
 	$_SESSION['aryCartArray'] = serialize($aryCartArray);
-	$_SESSION['aryProductArray'] = serialize($aryProductsArray); //serialized aryProductArray
-
+	
 	session_write_close();
 	
 	

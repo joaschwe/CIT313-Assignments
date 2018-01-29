@@ -28,11 +28,10 @@
     
     <?php
 		//create a loop that writes a form that displays all of the products in the SESSION inventory array
-		
 		$aryProductArray = unserialize($_SESSION['aryProductArray']);
 	
-	//CORRECTION: misspelled variable, changed $arryProductArray to $aryProductArray
-		for ($x = 0; $x < count($aryProductArray); $x++) {
+	
+		for ($x = 0; $x < count($aryProductArray); $x++) { //misspelled variable, was $arryProductArray
 	?>
     <fieldset>
 		<legend>Product Details</legend>
@@ -60,7 +59,8 @@
             
 			<div>
                 <label for="quantity<?php echo $x ?>">Quantity Requested</label>
-                <input id="quantity<?php echo $x ?>" name="quantity<?php echo $x ?>" type="text" size="10" /></div>
+                <input id="quantity<?php echo $x ?>" name="quantity<?php echo $x ?>" type="text" size="10" />
+            </div>
 	</fieldset>
     
     <?php		

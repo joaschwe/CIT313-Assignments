@@ -27,20 +27,20 @@
 
 	
 	//get the product array stored in session
-	$aryProductsArray = unserialize($_SESSION['aryProductArray']);
+	$aryProductArray = unserialize($_SESSION['aryProductArray']); //misspelled variable, was $aryProductsArray
 	
 	//for each item in the cart array, loop through and write out the quantity and item name
-
+	
 	for ($x=0; $x < count($aryCartArray); $x++) {
 		
 		$aryCartItemArray = $aryCartArray[$x];
-
+		
 		//find the corresponding product in the product array
 
-		$thisProduct = $aryProductsArray[$aryCartItemArray[0]]; //CORRECTION: variable name misspelled and missing semicolon to execute statement
-
-		echo "<b>" . $thisProduct->product_name . "</b>" . " Qty: " . $aryCartItemArray[0] . "<br />"; // <-- this is where my last error is
-
+		$thisProduct = $aryProductArray[$aryCartItemArray[0]]; //missing semicolon to execute statement
+		
+		echo "<b>" . $thisProduct->product_name . "</b>" . " Qty: " . $aryCartItemArray[1] . "<br />";
+		
 	}
 
 ?>

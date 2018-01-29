@@ -1,12 +1,11 @@
 <?php
-//        die(print "hello");
 
 	//this page will accept the information from the inventory form and create an object for each inventory item.  Once the object is created, it is added to an inventory array stored in Session
 	include_once('webconfig.php');
 	include_once(ABSOLUTE_PATH . '/classes/product.class.php');
 	include_once(ABSOLUTE_PATH . '/classes/fruit_product.class.php');
 	include_once(ABSOLUTE_PATH . '/classes/veggie_product.class.php');
-session_start();
+	session_start();
 ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -33,18 +32,16 @@ for ($x=0; $x<=7; $x++) {
 	//first, see if the product's name has been set.  If not, skip processing this product.
 	if (!empty($_POST['productname' . $x]))  {
 		
-		//produce item's name is not empty, so process this site
-		
+		//produce item's name is not empty, so process this item
 		$thisProductName = $_POST['productname' . $x];
 		$thisProduceType = $_POST['producetype' . $x];
 		$thisProductPriceType = $_POST['pricetype' . $x];
 		$thisProductPrice = $_POST['productprice' . $x];
 		
 		echo "Added " . $thisProductName . "<br />";
-
-        //create an empty produceItem variable
-        
-        $produceItem = '';  //added = '';
+		
+		//create an empty produceItem variable
+		$produceItem;
 		
 		switch ($thisProduceType) {
 			case "f": //fruit
@@ -54,20 +51,18 @@ for ($x=0; $x<=7; $x++) {
 				break;
 			case "v": //veg
 				//create veggie object
-
-				$produceItem = new veggie($x, $thisProductName, $thisProductPriceType, $thisProductPrice);  //correction: $this_ProductName changed to $thisProductName
+				$produceItem = new veggie($x, $thisProductName, $thisProductPriceType, $thisProductPrice); //misspelled variable, was $_thisProductName, s/b $thisProductName
 				$typeType = "Veggie";
 				break;
 		}
-
-
+		
 		if($produceItem->price_type == 2) {
 			$pType = "Each"; //added semicolon to execute statement
 		}
 		else {
 			$pType = "Per Lb";
 		}
-
+		
 		echo "Product ID: " . $produceItem->product_id . "<br />";
 		echo "Product Name: " . $produceItem->product_name . "<br />";
 		echo "Product Type: ". $typeType . "<br />";
@@ -79,7 +74,7 @@ for ($x=0; $x<=7; $x++) {
 	}
 	else {
 		//stop the loop at the first empty product name
-		break;	//<--but if you skip one and just start adding info to fields in the middle of the form it stops? why would you do this?
+		break;	
 	}
 	
 }

@@ -1,9 +1,9 @@
 <?php
-include_once('webconfig.php');
-include_once(ABSOLUTE_PATH . '/classes/product.class.php');
-include_once(ABSOLUTE_PATH . '/classes/fruit_product.class.php');
-include_once(ABSOLUTE_PATH . '/classes/veggie_product.class.php');
-//added all includes for classes so the rest of the files can pull the supporting code from the files for the classes
+	include_once('webconfig.php');
+	include_once(ABSOLUTE_PATH . '/classes/product.class.php');
+	include_once(ABSOLUTE_PATH . '/classes/fruit_product.class.php');
+	include_once(ABSOLUTE_PATH . '/classes/veggie_product.class.php');
+	//added the rest of the includes to be able to reference class files
 ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -11,7 +11,7 @@ include_once(ABSOLUTE_PATH . '/classes/veggie_product.class.php');
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>I've Got A Lovely Bunch of Coconuts: Create Inventory</title>
-<link type="text/css" rel="stylesheet" href="<?php echo URL_ROOT . '/styles.css' ?>" />
+<link type="text/css" rel="stylesheet" href="<?php echo URL_ROOT . '/styles.css' ?>" >
 </head>
 
 <body>
@@ -23,21 +23,18 @@ include_once(ABSOLUTE_PATH . '/classes/veggie_product.class.php');
 	<h2>To begin setting up your produce stand, input the products that you would like to offer.</h2>
 
 	<div class="form-container">
-<!--    deleted single quotes around URL_ROOT so php will process correctly -->
-	<form action="<?php echo URL_ROOT . '/add_products_to_inventory.php' ?>" method="post">
 
+<!--    removed single quotes, incorrect php syntax     -->
+	<form action="<?php echo URL_ROOT . '/add_products_to_inventory.php' ?>" method="post">
+    
     <?php
 		//create a loop that writes a form to allow up to 8 produce items to be added
-	
 		for ($x = 0; $x <= 7; $x++) {
-
             ?>
-
             <fieldset>
                 <legend>Product Details: Product <?php echo $x ?></legend>
-                <div>
-                    <label for="productname<?php echo $x ?>">Product Name</label>
-                    <input id="productname<?php echo $x ?>" type="text" name="productname<?php echo $x ?>" value=""/>
+                <div><label for="productname<?php echo $x ?>">Product Name</label> <input
+                            id="productname<?php echo $x ?>" type="text" name="productname<?php echo $x ?>" value=""/>
                 </div>
 
                 <div>
@@ -60,16 +57,15 @@ include_once(ABSOLUTE_PATH . '/classes/veggie_product.class.php');
                     </select>
                 </div>
 
-                <div>
-                	<label for="productprice<?php echo $x ?>">Product Price</label> 
-                	$<input id="productprice<?php echo $x ?>" name="productprice<?php echo $x ?>" type="text"
+                <div><label for="productprice<?php echo $x ?>">Product Price</label> $<input
+                            id="productprice<?php echo $x ?>" name="productprice<?php echo $x ?>" type="text"
                             size="10"/></div>
             </fieldset>
 
             <?php
-            //removed )
-            //added closing bracket } to close the functions and enable it to loop through and print the form html 8 times
-        }
+
+//	)
+        } //added closing bracket to execute for loop
 	?>
 	
 	
