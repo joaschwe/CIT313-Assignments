@@ -24,7 +24,7 @@ The constructor method for the User class should accept one parameter:  user_lev
 
 The constructor method should set the user_level variable
 
-<h2>Step Two:  Create Subclasses</h2>
+<h3>Step Two:  Create Subclasses</h3>
 
 Now create two more classes, each in their own files, which are subclasses of the User class.  A registered user is of user_type 1.  An admin user is of user type 2.
 
@@ -36,7 +36,7 @@ Both classes should call their parent’s constructor method.
 
 Both classes should set the user id in the constructor method.
 
-Step Three:  Instantiate the Objects
+<h3>Step Three:  Instantiate the Objects</h3>
 
 Create an index.php file at the root of your Exercise 2 folder.
 
