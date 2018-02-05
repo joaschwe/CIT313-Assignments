@@ -1,3 +1,5 @@
+<h3>Instructions</h3>
+
 In this exercise you will create and instantiate objects.  Put all of your files in your Exercise 2 folder.  Once you have completed the assignment, deploy to your Corsair Server and save to GitHub.  Provide the links to both Corsair and GitHub in the comment box of the Canvas ‘Turn In Assignment’ screen. Zip your source files and upload.
 
 NOTE:  Your classes should contain ‘.class’ in the filename and placed in a separate classes folder.  Although this is not a PHP requirement it not only helps distinguish the types of files while you are browsing directories, it will help keep you organized later in this class.
@@ -24,7 +26,7 @@ The constructor method for the User class should accept one parameter:  user_lev
 
 The constructor method should set the user_level variable
 
-<h3>Step Two:  Create Subclasses</h3>
+<h4>Step Two:  Create Subclasses</h4>
 
 Now create two more classes, each in their own files, which are subclasses of the User class.  A registered user is of user_type 1.  An admin user is of user type 2.
 
@@ -36,7 +38,7 @@ Both classes should call their parent’s constructor method.
 
 Both classes should set the user id in the constructor method.
 
-<h3>Step Three:  Instantiate the Objects</h3>
+<h4>Step Three:  Instantiate the Objects</h4>
 
 Create an index.php file at the root of your Exercise 2 folder.
 
