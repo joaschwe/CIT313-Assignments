@@ -6,8 +6,8 @@ class controller {
 
 
     function __construct() {
-        $this->load = new Load();
-        $this->user = new User();
+        $this->load = new load();
+        $this->user = new user();
         $this->home();
     }
 
