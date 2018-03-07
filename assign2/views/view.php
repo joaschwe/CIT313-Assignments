@@ -16,13 +16,17 @@
 <body>
     <h1>Hello from my view!</h1>
 
-    <ul>
-        <li>User ID: <?php echo $userID;?></li>
-        <li>First Name: <?php echo $first;?></li>
-        <li>Last Name: <?php echo $last;?></li>
-        <li>Email: <?php echo $email;?></li>
-        <li>Role: <?php echo $role;?></li>
-    </ul>
+<?php
+    echo '<ul> 
+        <li>UserID: ' . $userID . '</li>
+        <li>First Name: ' . $firstname . '</li>
+        <li>Last Name: ' . $lastname . '</li>
+        <li>Email: ' . $email . '</li>
+        <li>Role: ' . $role . '</li>
+        </ul>';
+
+
+?>
 
 </body>
 
