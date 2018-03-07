@@ -6,6 +6,12 @@
  * Time: 7:11 PM
  */
 
+//if(file_exists('application/'.$class.'.class.php'))
+//{
+//    include_once('application/'.$class.'.class.php');
+//
+//}
+
 include_once 'controllers/controller.class.php';
 include_once 'load.class.php';
 include_once 'models/model.class.php';

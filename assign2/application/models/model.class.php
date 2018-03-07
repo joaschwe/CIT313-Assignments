@@ -7,27 +7,17 @@
  */
 
 
-//abstract class model {
-abstract class model {
 
-    protected $userID;
-    protected $firstname;
-    protected $lastname;
-    protected $email;
-    protected $role;
+ abstract class model {
 
-//    public function getName() {
-//        return array(
-//            'userID'=>'joaschwe',
-//            'first'=>'Joanna',
-//            'last'=>'Schweiger',
-//            'email'=>'joaschwe@iupui.edu',
-//            'role'=>'admin'
-//        );
-//    }
+     protected $userID;
+     protected $firstname;
+     protected $lastname;
+     protected $email;
+     protected $role;
+
 
     public function __construct() {
-//        $this->userID = $user_ID;
         //coming back to this
     }
 
