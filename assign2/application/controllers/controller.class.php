@@ -10,30 +10,35 @@ class controller {
     public $load;
     public $user;
 
+    function home() {
+
+        $this->user->userID = 'joaschwe';
+        $this->user->firstname = 'Joanna';
+        $this->user->lastname = 'Schweiger';
+        $this->user->email = 'joaschwe@iupui.edu';
+        $this->user->role = 'admin';
+
+        $data = $this->user->getName();
+        $this->load->view('view.php', $data);
+    }
+
     function __construct() {
         $this -> load = new load();
         $this -> user = new user();
         $this -> home();
     }
 
-    function __get($name)
+    public function __set($name, $value)
     {
-        // TODO: Implement __get() method.
+        $this->$name = $value;
     }
 
-    function __set($name, $value)
+    public function __get($name)
     {
-        // TODO: Implement __set() method.
+        return $this->$name;
     }
 
-    function home() {
-        $this -> user -> userID = 'joaschwe';
-        $this -> firstname -> firstname = 'joanna';
-        $this -> lastname -> lastname = 'schweiger';
-        $this -> email -> email = 'joaschwe@iupui.edu';
-        $this -> role -> role = 'admin';
+    public function __destruct() { }
 
-        $data = $this->user->getName();
-        $this->load->view('view.php', $data);
-    }
+
 }
