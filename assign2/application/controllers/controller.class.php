@@ -8,11 +8,11 @@
 
 class controller {
     public $load;
-    public $model;
+    public $user;
 
     function __construct() {
         $this -> load = new load();
-        $this -> model = new model();
+        $this -> user = new user();
         $this -> home();
     }
 
@@ -27,7 +27,13 @@ class controller {
     }
 
     function home() {
-        $data = $this->model->getName();
+        $this -> user -> userID = 'joaschwe';
+        $this -> firstname -> firstname = 'joanna';
+        $this -> lastname -> lastname = 'schweiger';
+        $this -> email -> email = 'joaschwe@iupui.edu';
+        $this -> role -> role = 'admin';
+
+        $data = $this->user->getName();
         $this->load->view('view.php', $data);
     }
 }
