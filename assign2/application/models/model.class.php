@@ -8,13 +8,13 @@
 
 
 //abstract class model {
-class model {
+abstract class model {
 
-    protected $userID = 'joaschwe';
-    protected $firstname = 'Joanna';
-    protected $lastname = 'Schweiger';
-    protected $email = 'joaschwe@iupui.edu';
-    protected $role = 'admin';
+    protected $userID;
+    protected $firstname;
+    protected $lastname;
+    protected $email;
+    protected $role;
 
 //    public function getName() {
 //        return array(
