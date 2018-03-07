@@ -11,7 +11,6 @@ class controller {
     public $user;
 
     function home() {
-
         $this->user->userID = 'joaschwe';
         $this->user->firstname = 'Joanna';
         $this->user->lastname = 'Schweiger';
@@ -19,7 +18,7 @@ class controller {
         $this->user->role = 'admin';
 
         $data = $this->user->getName();
-        $this->load->view('view.php', $data);
+        $this->load->view('view.php',$data);
     }
 
     function __construct() {
