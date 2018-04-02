@@ -13,10 +13,12 @@ class Controller {
 		//check the user object
         $u = new Users();
 
-        //check access to the page
-        $_SESSION['redirect'] = $view;
+
 
         if( $this->access && !$u->isAdmin() ) {
+            //check access to the page
+            $_SESSION['redirect'] = $view;
+
             header('Location: ' . BASE_URL . 'login/');
         } else {
             //run any task methods
