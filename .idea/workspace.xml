@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e1f436d-258a-4041-8914-5ab846eb785e" name="Default" comment="uploaded file">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ex5/application/controllers/logincontroller.php" afterPath="$PROJECT_DIR$/ex5/application/controllers/logincontroller.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ex5/views/elements/header.php" afterPath="$PROJECT_DIR$/ex5/views/elements/header.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,10 +13,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="logincontroller.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="logincontroller.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ex5/application/controllers/logincontroller.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
+            <state relative-caret-position="83">
               <caret line="24" column="46" lean-forward="true" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
               <folding />
             </state>
@@ -43,12 +43,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ex5/views/elements/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
-              <caret line="102" column="22" lean-forward="false" selection-start-line="102" selection-start-column="22" selection-end-line="102" selection-end-column="22" />
+            <state relative-caret-position="124">
+              <caret line="76" column="70" lean-forward="false" selection-start-line="76" selection-start-column="70" selection-end-line="76" selection-end-column="70" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="users.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ex5/application/models/users.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1544">
+              <caret line="103" column="9" lean-forward="true" selection-start-line="103" selection-start-column="9" selection-end-line="103" selection-end-column="9" />
+              <folding>
+                <marker date="1522636728000" expanded="true" signature="580:655" ph="SELECT uID, users" />
+                <marker date="1522636728000" expanded="true" signature="970:1031" ph="SELECT uID, users" />
+                <marker date="1522636728000" expanded="true" signature="1249:1283" ph="SELECT * FRO... users" />
+                <marker date="1522636728000" expanded="true" signature="1434:1466" ph="SELECT * FRO... users" />
+                <marker date="1522636728000" expanded="true" signature="1667:1742" ph="INSERT INTO users... " />
+                <marker date="1522636728000" expanded="true" signature="1890:1939" ph="SELECT email... users" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -87,13 +104,13 @@
         <option value="$PROJECT_DIR$/ex4/index.php" />
         <option value="$PROJECT_DIR$/ex5/application/controllers/addpostcontroller.php" />
         <option value="$PROJECT_DIR$/ex5/index.php" />
-        <option value="$PROJECT_DIR$/ex5/views/elements/header.php" />
         <option value="$PROJECT_DIR$/ex5/application/models/users.php" />
         <option value="$PROJECT_DIR$/ex5/application/controllers/controller.php" />
         <option value="$PROJECT_DIR$/ex5/application/config.php" />
         <option value="$PROJECT_DIR$/ex5/application/load.php" />
         <option value="$PROJECT_DIR$/ex4/application/load.php" />
         <option value="$PROJECT_DIR$/ex5/application/controllers/logincontroller.php" />
+        <option value="$PROJECT_DIR$/ex5/views/elements/header.php" />
       </list>
     </option>
   </component>
@@ -166,6 +183,13 @@
               <item name="CIT313-Assignments" type="b2602c69:ProjectViewProjectNode" />
               <item name="CIT313-Assignments" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="ex5" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="models" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="CIT313-Assignments" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CIT313-Assignments" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ex5" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -221,7 +245,7 @@
       <updated>1520400330405</updated>
       <workItem from="1520400339480" duration="4256000" />
       <workItem from="1522362839290" duration="25908000" />
-      <workItem from="1522629897719" duration="6502000" />
+      <workItem from="1522629897719" duration="6763000" />
     </task>
     <task id="LOCAL-00001" summary="missed semi-colon">
       <created>1520401397519</created>
@@ -304,7 +328,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36666000" />
+    <option name="totallyTimeSpent" value="36927000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1436" height="877" extended-state="0" />
@@ -726,21 +750,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex5/application/models/users.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="103" column="9" lean-forward="true" selection-start-line="103" selection-start-column="9" selection-end-line="103" selection-end-column="9" />
-          <folding>
-            <marker date="1522636728000" expanded="true" signature="580:655" ph="SELECT uID, users" />
-            <marker date="1522636728000" expanded="true" signature="970:1031" ph="SELECT uID, users" />
-            <marker date="1522636728000" expanded="true" signature="1249:1283" ph="SELECT * FRO... users" />
-            <marker date="1522636728000" expanded="true" signature="1434:1466" ph="SELECT * FRO... users" />
-            <marker date="1522636728000" expanded="true" signature="1667:1742" ph="INSERT INTO users... " />
-            <marker date="1522636728000" expanded="true" signature="1890:1939" ph="SELECT email... users" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ex4/application/load.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -773,14 +782,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex5/views/elements/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="102" column="22" lean-forward="false" selection-start-line="102" selection-start-column="22" selection-end-line="102" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ex5/application/controllers/addpostcontroller.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -799,8 +800,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ex5/application/controllers/logincontroller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
+        <state relative-caret-position="83">
           <caret line="24" column="46" lean-forward="true" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex5/application/models/users.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1544">
+          <caret line="103" column="9" lean-forward="true" selection-start-line="103" selection-start-column="9" selection-end-line="103" selection-end-column="9" />
+          <folding>
+            <marker date="1522636728000" expanded="true" signature="580:655" ph="SELECT uID, users" />
+            <marker date="1522636728000" expanded="true" signature="970:1031" ph="SELECT uID, users" />
+            <marker date="1522636728000" expanded="true" signature="1249:1283" ph="SELECT * FRO... users" />
+            <marker date="1522636728000" expanded="true" signature="1434:1466" ph="SELECT * FRO... users" />
+            <marker date="1522636728000" expanded="true" signature="1667:1742" ph="INSERT INTO users... " />
+            <marker date="1522636728000" expanded="true" signature="1890:1939" ph="SELECT email... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex5/views/elements/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="76" column="70" lean-forward="false" selection-start-line="76" selection-start-column="70" selection-end-line="76" selection-end-column="70" />
           <folding />
         </state>
       </provider>

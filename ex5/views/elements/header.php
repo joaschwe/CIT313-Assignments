@@ -60,7 +60,7 @@
                   <ul class="nav pull-right">
                       <li class="dropdown">
                           <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">
-                              <?php echo $_SESSION['first_name'] . ' ' . $_SESSION['last_name']; ?><b class="caret"></b>
+                              <?php echo $u->getUserName(); ?><b class="caret"></b>
                           </a>
                           <ul class="dropdown-menu" role="menu">
 
@@ -74,7 +74,7 @@
                               }
                               ?>
                               <li>
-                                  <a href="<?php echo BASE_URL?>logout/">Log Out</a>
+                                  <a href="<?php echo BASE_URL?>login/logout/">Log Out</a>
                               </li>
                           </ul>
 
