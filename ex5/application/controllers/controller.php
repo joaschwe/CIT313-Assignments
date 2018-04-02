@@ -14,12 +14,11 @@ class Controller {
         $u = new Users();
 
 
-
+        //if protected access and user is not logged in as admin (user_type 1) keep redirecting back to login page
         if( $this->access && !$u->isAdmin() ) {
-            //check access to the page
             $_SESSION['redirect'] = $view;
-
             header('Location: ' . BASE_URL . 'login/');
+
         } else {
             //run any task methods
             if($method){
