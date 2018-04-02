@@ -6,6 +6,9 @@ class Load {
       if( is_array($data) ) {
          extract($data);
       }
+
+      $u = new Users();
+      
       include 'views/' . $file_name;
    }
 }
