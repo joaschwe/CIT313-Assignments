@@ -8,7 +8,7 @@ class Load {
       }
 
       $u = new Users();
-      
+
       include 'views/' . $file_name;
    }
 }
