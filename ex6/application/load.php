@@ -1,7 +1,7 @@
 
 <?php
-class Load {
-   function view( $file_name, $data = null ) 
+class View {
+   function load( $folder, $file_name, $data = null )
    {
       if( is_array($data) ) {
          extract($data);
@@ -9,6 +9,6 @@ class Load {
 
       $u = new Users();
 
-      include 'views/' . $file_name;
+      include 'views/' . $folder . '/' . $file_name . 'php';
    }
 }
