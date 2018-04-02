@@ -29,7 +29,7 @@ class Controller {
             }
 
             //render the view
-            if( file_exists('views/'.strtolower($view). '/' . strtolower($method) . 'php') ) {
+            if( file_exists('views/'.strtolower($view). '/' . strtolower($method) . '.php') ) {
                 $this->view->load($view, $method, $this->data);
             } else {
                 $this->view->load($view, 'index', $this->data);
