@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e1f436d-258a-4041-8914-5ab846eb785e" name="Default" comment="uploaded file">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ex6/views/members/users.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ex6/views/members.php" afterPath="$PROJECT_DIR$/ex6/views/members/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ex6/application/controllers/memberscontroller.php" afterPath="$PROJECT_DIR$/ex6/application/controllers/memberscontroller.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ex6/application/config.php" afterPath="$PROJECT_DIR$/ex6/application/config.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,11 +13,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="memberscontroller.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="memberscontroller.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ex6/application/controllers/memberscontroller.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
               <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ex6/application/config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="71" lean-forward="false" selection-start-line="3" selection-start-column="71" selection-end-line="3" selection-end-column="71" />
               <folding />
             </state>
           </provider>
@@ -96,6 +103,7 @@
         <option value="$PROJECT_DIR$/ex6/views/members/index.php" />
         <option value="$PROJECT_DIR$/ex6/views/members/users.php" />
         <option value="$PROJECT_DIR$/ex6/application/controllers/memberscontroller.php" />
+        <option value="$PROJECT_DIR$/ex6/application/config.php" />
       </list>
     </option>
   </component>
@@ -145,33 +153,6 @@
               <item name="CIT313-Assignments" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="ex6" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="CIT313-Assignments" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CIT313-Assignments" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="ex6" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="CIT313-Assignments" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CIT313-Assignments" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="ex6" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="CIT313-Assignments" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CIT313-Assignments" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="ex6" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="blog" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="CIT313-Assignments" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CIT313-Assignments" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="ex6" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="members" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -226,7 +207,7 @@
       <updated>1520400330405</updated>
       <workItem from="1520400339480" duration="4256000" />
       <workItem from="1522362839290" duration="25908000" />
-      <workItem from="1522629897719" duration="10888000" />
+      <workItem from="1522629897719" duration="11065000" />
     </task>
     <task id="LOCAL-00001" summary="missed semi-colon">
       <created>1520401397519</created>
@@ -309,7 +290,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41052000" />
+    <option name="totallyTimeSpent" value="41229000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1436" height="877" extended-state="0" />
@@ -380,16 +361,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assign2/application/models/user.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="43" column="10" lean-forward="false" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
-          <folding>
-            <element signature="e#6#98#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assign2/application/models/model.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -806,6 +777,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex6/application/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="71" lean-forward="false" selection-start-line="3" selection-start-column="71" selection-end-line="3" selection-end-column="71" />
           <folding />
         </state>
       </provider>
