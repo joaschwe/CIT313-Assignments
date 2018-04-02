@@ -21,8 +21,15 @@ class LoginController extends Controller{
 			$_SESSION['user_type'] = $userInfo['user_type'];
 			$_SESSION['password'] = $userInfo['password'];
 
+			if( strlen($_SESSION['redirect']) > 0 ) {
+			    $view = $_SESSION['view'];
+			    unset($_SESSION['redirect']);
+			    header('Location: ' . BASE_URL.$view);
+            } else {
+                header('Location: ' . BASE_URL);
+            }
 			
-			header('Location: ' . BASE_URL);
+
 	   } else  {
 	   		echo '<br/>bad user<br/>';
 	   		echo var_dump($_POST) . '<br/>';
