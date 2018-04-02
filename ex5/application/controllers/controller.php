@@ -15,7 +15,7 @@ class Controller {
 
 
         //if protected access and user is not logged in as admin (user_type 1) keep redirecting back to login page
-        if( $this->access && !$u->isAdmin() ) {
+        if( $this->access == 1 && !$u->isAdmin() ) {
             $_SESSION['redirect'] = $view;
             header('Location: ' . BASE_URL . 'login/');
 
