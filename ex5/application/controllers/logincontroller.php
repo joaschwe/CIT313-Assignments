@@ -22,7 +22,7 @@ class LoginController extends Controller{
 			$_SESSION['password'] = $userInfo['password'];
 
 			if( isset($_SESSION['redirect']) > 0 ) {
-			    $view = $_SESSION['view'];
+			    $view = $_SESSION['redirect'];
 			    unset($_SESSION['redirect']);
 			    header('Location: ' . BASE_URL.$view);
             } else {
