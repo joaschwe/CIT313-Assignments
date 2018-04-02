@@ -17,7 +17,7 @@
     </style>
     <link href="<?php echo BASE_URL?>views/css/bootstrap-responsive.css" rel="stylesheet">
       <?php
-        if( $_SESSION['user_type'] == 1) { ?>
+        if( $u->isAdmin() ) { ?>
 
           <link rel="stylesheet" href="<?php echo BASE_URL?>application/plugins/tinyeditor/tinyeditor.css">
       <?php } ?>
@@ -54,7 +54,7 @@
             </ul>
 
               <?php
-              if( isset($_SESSION['uID']) ) {
+              if( $u->isRegistered() ) {
                   ?>
 
                   <ul class="nav pull-right">
@@ -65,7 +65,7 @@
                           <ul class="dropdown-menu" role="menu">
 
                               <?php
-                              if( $_SESSION['user_type'] == 1) {
+                              if( $u->isAdmin() ) {
                                   ?>
                                   <li>
                                       <a href="<?php echo BASE_URL?>addpost/">Add Blog Post</a>
@@ -100,7 +100,7 @@
     </div>
 
     <?php
-    if( $_SESSION['user_type'] == 1) { ?>
+    if( $u->isAdmin() ) { ?>
 
     <!-- Le javascript
 ================================================== -->
