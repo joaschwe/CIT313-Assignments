@@ -1,5 +1,5 @@
 
-<?php include('elements/header.php');?>
+<?php include('views/elements/header.php');?>
 <?php
 if( is_array($post) ) {
     extract($post);?>
@@ -17,4 +17,4 @@ if( is_array($post) ) {
 <?php }?>
 
 
-<?php include('elements/footer.php');?>
+<?php include('views/elements/footer.php');?>
