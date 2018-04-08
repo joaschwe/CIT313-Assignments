@@ -3,38 +3,19 @@
 
 include('views/elements/header.php');?>
 
-<?php 
-if( is_array($user) ) {
-	extract($user);?>
 
 <div class="container">
-	<div class="page-header">
+    <div class="page-header">
+        <h1><?php echo $title; ?></h1>
+    </div>
 
-<h1>Member #<?php echo $user['uID'];?></h1>
-  </div>
-  
-<?php echo $user['first_name'];?> <?php echo $user['last_name'];?><br />
-<a href="mailto:<?php echo $user['email'];?>"><?php echo $user['email'];?></a>
+    <?php foreach ($users as $u) { ?>
+        <h3><a href="<?php echo BASE_URL ?>members/users/<?php echo $u['uID']; ?>"title="<?php echo $u['first_name']; ?> <?php echo $u['last_name']; ?>"><?php echo $u['email']; ?></a>
+        </h3>
+        <p><?php echo $u['first_name']; ?><?php echo $u['last_name']; ?></p>
+        <p><a href="mailto:<?php echo $u['email']; ?>"><?php echo $u['email']; ?></a></p>
 
-</div>
-<?php }?>
-
-<?php if( is_array($users) ) {?>
-
-<div class="container">
-<div class="page-header">
-
-<h1><?php echo $title;?></h1>
-  </div>
-
-	<?php foreach($users as $u){?>
-    <h3><a href="<?php echo BASE_URL?>members/view/<?php echo $u['uID'];?>" title="<?php echo $u['first_name'];?> <?php echo $u['last_name'];?>"><?php echo $u['email'];?></a></h3>
-    <p><?php echo $u['first_name'];?> <?php echo $u['last_name'];?></p>
-    <p><a href="mailto:<?php echo $u['email'];?>"><?php echo $u['email'];?></a></p>
-    
-<?php }?>
-
-<?php } ?>
+    <?php } ?>
 
 </div>
 
