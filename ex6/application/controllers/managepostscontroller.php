@@ -13,7 +13,7 @@ class ManagePostsController extends Controller{
 	public function add(){
 		$this->postObject = new Post();
 		$this->getCategories();
-		$this->set('task', 'add');
+		$this->set('task', 'save');
 	}
 	
 	public function save(){

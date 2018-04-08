@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6e1f436d-258a-4041-8914-5ab846eb785e" name="Default" comment="uploaded file" />
+    <list default="true" id="6e1f436d-258a-4041-8914-5ab846eb785e" name="Default" comment="uploaded file">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ex6/application/controllers/managepostscontroller.php" afterPath="$PROJECT_DIR$/ex6/application/controllers/managepostscontroller.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ex6/views/manageposts/add.php" afterPath="$PROJECT_DIR$/ex6/views/manageposts/add.php" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +34,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ex6/views/manageposts/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
@@ -41,11 +44,51 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="add.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ex6/views/manageposts/add.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="58" lean-forward="false" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ex6/views/manageposts/edit.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="managepostscontroller.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ex6/application/controllers/managepostscontroller.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+            <state relative-caret-position="225">
+              <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ex6/views/login/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logincontroller.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ex6/application/controllers/logincontroller.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -122,8 +165,9 @@
         <option value="$PROJECT_DIR$/ex6/application/controllers/blogcontroller.php" />
         <option value="$PROJECT_DIR$/ex6/views/home/index.php" />
         <option value="$PROJECT_DIR$/ex6/application/controllers/homecontroller.php" />
-        <option value="$PROJECT_DIR$/ex6/application/controllers/managepostscontroller.php" />
         <option value="$PROJECT_DIR$/ex6/views/manageposts/index.php" />
+        <option value="$PROJECT_DIR$/ex6/views/manageposts/add.php" />
+        <option value="$PROJECT_DIR$/ex6/application/controllers/managepostscontroller.php" />
       </list>
     </option>
   </component>
@@ -208,6 +252,13 @@
               <item name="CIT313-Assignments" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="ex6" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="login" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="CIT313-Assignments" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CIT313-Assignments" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ex6" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="manageposts" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
@@ -266,7 +317,7 @@
       <workItem from="1520400339480" duration="4256000" />
       <workItem from="1522362839290" duration="25908000" />
       <workItem from="1522629897719" duration="11691000" />
-      <workItem from="1523168668173" duration="7885000" />
+      <workItem from="1523168668173" duration="8263000" />
     </task>
     <task id="LOCAL-00001" summary="missed semi-colon">
       <created>1520401397519</created>
@@ -349,7 +400,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49740000" />
+    <option name="totallyTimeSpent" value="50118000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1436" height="877" extended-state="0" />
@@ -420,21 +471,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ex4/application/libraries/password.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="291" column="1" lean-forward="false" selection-start-line="291" selection-start-column="1" selection-end-line="291" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex4/application/router.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="43" column="1" lean-forward="false" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ex4/views/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="181">
@@ -648,6 +684,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1544">
           <caret line="103" column="9" lean-forward="true" selection-start-line="103" selection-start-column="9" selection-end-line="103" selection-end-column="9" />
+          <folding>
+            <marker date="1522636728000" expanded="true" signature="580:655" ph="SELECT uID, users" />
+            <marker date="1522636728000" expanded="true" signature="970:1031" ph="SELECT uID, users" />
+            <marker date="1522636728000" expanded="true" signature="1249:1283" ph="SELECT * FRO... users" />
+            <marker date="1522636728000" expanded="true" signature="1434:1466" ph="SELECT * FRO... users" />
+            <marker date="1522636728000" expanded="true" signature="1667:1742" ph="INSERT INTO users... " />
+            <marker date="1522636728000" expanded="true" signature="1890:1939" ph="SELECT email... users" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -655,14 +699,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex6/application/controllers/logincontroller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -734,14 +770,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex6/views/login/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -818,18 +846,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex6/application/controllers/managepostscontroller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ex6/views/manageposts/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex6/views/manageposts/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex6/views/manageposts/add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="58" lean-forward="false" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex6/application/controllers/managepostscontroller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex6/application/controllers/logincontroller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex6/views/login/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
           <folding />
         </state>
       </provider>
