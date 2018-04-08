@@ -1,5 +1,5 @@
 <?php
-require_once('application/config.php');
+
 include('views/elements/header.php');
 //echo isAdmin();?>
 <script>console.log( isAdmin() );</script>
