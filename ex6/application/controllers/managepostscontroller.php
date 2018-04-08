@@ -1,18 +1,22 @@
 <?php
-class AddPostController extends Controller{
+class ManagePostsController extends Controller{
 	
 	public $postObject;
 
 	//access for admin (user_type 1) only
 	protected $access = 1;
-	
-	public function defaultTask(){
+
+	public function index() {
+
+    }
+
+	public function add(){
 		$this->postObject = new Post();
 		$this->getCategories();
 		$this->set('task', 'add');
 	}
 	
-	public function add(){
+	public function save(){
 		$this->postObject = new Post();
 		$data = array('title'=>$_POST['title'],'content'=>$_POST['content'],'category'=>$_POST['category'],'date'=>$_POST['date']);
 			
