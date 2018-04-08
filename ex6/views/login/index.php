@@ -1,5 +1,5 @@
 <?php
-require_once ('application/config.php');
+
 include('views/elements/header.php')
 ;?>
 <div class="container">
@@ -8,7 +8,7 @@ include('views/elements/header.php')
    
    <?php echo $numbers; ?>
    
-   <?php include('elements/login_form.php');?>
+   <?php include('views/elements/login_form.php');?>
    
   </div>
 </div>
