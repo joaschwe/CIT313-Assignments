@@ -15,7 +15,7 @@ include('elements/header.php');
     </div>
   <?php }?>
 
-<?php include ('elements/registration_form.php');
+<?php include('elements/registration_form.php');
 echo '<p><a href="'.BASE_URL.'">Back to home page</a></p>';
 ?>
 
