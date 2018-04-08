@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e1f436d-258a-4041-8914-5ab846eb785e" name="Default" comment="uploaded file">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ex6/views/manageposts/add.php" afterPath="$PROJECT_DIR$/ex6/views/manageposts/add.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ex6/views/manageposts/edit.php" afterPath="$PROJECT_DIR$/ex6/views/manageposts/edit.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,21 +23,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="add.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ex6/views/manageposts/add.php">
+      <file leaf-file-name="edit.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ex6/views/manageposts/edit.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
+            <state relative-caret-position="239">
               <caret line="16" column="54" lean-forward="false" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ex6/views/manageposts/edit.php">
+      <file leaf-file-name="add.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ex6/views/manageposts/add.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="232">
+              <caret line="16" column="54" lean-forward="false" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -57,7 +57,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/assign2/application/models/user.class.php" />
         <option value="$PROJECT_DIR$/assign2/application/controllers/controller.class.php" />
         <option value="$PROJECT_DIR$/assign2/application/router.php" />
         <option value="$PROJECT_DIR$/ex4/application/plugins/tinyeditor/tinyeditor.css" />
@@ -108,6 +107,7 @@
         <option value="$PROJECT_DIR$/ex6/views/elements/header.php" />
         <option value="$PROJECT_DIR$/ex6/views/manageposts/index.php" />
         <option value="$PROJECT_DIR$/ex6/views/manageposts/add.php" />
+        <option value="$PROJECT_DIR$/ex6/views/manageposts/edit.php" />
       </list>
     </option>
   </component>
@@ -271,7 +271,7 @@
       <workItem from="1520400339480" duration="4256000" />
       <workItem from="1522362839290" duration="25908000" />
       <workItem from="1522629897719" duration="11691000" />
-      <workItem from="1523168668173" duration="9302000" />
+      <workItem from="1523168668173" duration="9586000" />
     </task>
     <task id="LOCAL-00001" summary="missed semi-colon">
       <created>1520401397519</created>
@@ -354,7 +354,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51157000" />
+    <option name="totallyTimeSpent" value="51441000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1436" height="877" extended-state="0" />
@@ -753,14 +753,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex6/views/manageposts/edit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ex6/views/register/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -844,6 +836,14 @@
     <entry file="file://$PROJECT_DIR$/ex6/views/manageposts/add.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
+          <caret line="16" column="54" lean-forward="false" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex6/views/manageposts/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
           <caret line="16" column="54" lean-forward="false" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
           <folding />
         </state>

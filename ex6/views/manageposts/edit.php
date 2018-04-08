@@ -14,7 +14,7 @@
   
   <div class="row">
       <div class="span8">
-        <form action="<?php echo BASE_URL?>blog/addpost/<?php echo $task?>" method="post" onsubmit="editor.post()">
+        <form action="<?php echo BASE_URL?>manageposts/<?php echo $task?>" method="post" onsubmit="editor.post()">
           <label>Title</label>
           <input type="text" class="span6" name="title" value="<?php echo $title?>" required="title">
      	  
