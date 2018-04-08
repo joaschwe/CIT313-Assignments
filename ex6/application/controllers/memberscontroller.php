@@ -3,13 +3,13 @@ class MembersController extends Controller{
 	
 	public $userObject;
   
-   	public function users($uID){
+   	public function view($uID){
 		$this->userObject = new Users();
 		$user = $this->userObject->getUser($uID);	    
 	  	$this->set('user',$user);
    	}
 	
-	public function index(){
+	public function defaultTask(){
 		$this->userObject = new Users();
 		$users = $this->userObject->getAllUsers();
 		$this->set('title', 'The Members View');
