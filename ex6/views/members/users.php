@@ -11,6 +11,7 @@ if( is_array($user) ) {
 <div class="container">
     <div class="page-header">
         <h1>Member #<?php echo $user['uID']; ?></h1>
+        <p><?php echo $user['email']; ?></p>
     </div>
 
     <?php echo $user['first_name']; ?> <?php echo $user['last_name']; ?><br/>
