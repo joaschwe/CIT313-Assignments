@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e1f436d-258a-4041-8914-5ab846eb785e" name="Default" comment="uploaded file">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ex6/application/controllers/logincontroller.php" afterPath="$PROJECT_DIR$/ex6/application/controllers/logincontroller.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ex6/application/controllers/registercontroller.php" afterPath="$PROJECT_DIR$/ex6/application/controllers/registercontroller.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ex6/views/register/index.php" afterPath="$PROJECT_DIR$/ex6/views/register/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -73,21 +74,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ex6/views/login/index.php">
+      <file leaf-file-name="registercontroller.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ex6/application/controllers/registercontroller.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+            <state relative-caret-position="75">
+              <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="logincontroller.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ex6/application/controllers/logincontroller.php">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ex6/views/register/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+            <state relative-caret-position="255">
+              <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -117,7 +118,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/assign2/views/view.php" />
         <option value="$PROJECT_DIR$/assign2/application/models/model.class.php" />
         <option value="$PROJECT_DIR$/assign2/application/models/user.class.php" />
         <option value="$PROJECT_DIR$/assign2/application/controllers/controller.class.php" />
@@ -155,7 +155,6 @@
         <option value="$PROJECT_DIR$/ex6/views/404/index.php" />
         <option value="$PROJECT_DIR$/ex6/views/blog/addpost.php" />
         <option value="$PROJECT_DIR$/ex6/views/categories/index.php" />
-        <option value="$PROJECT_DIR$/ex6/views/register/index.php" />
         <option value="$PROJECT_DIR$/ex6/views/blog/index.php" />
         <option value="$PROJECT_DIR$/ex6/views/login/index.php" />
         <option value="$PROJECT_DIR$/ex6/views/members/index.php" />
@@ -168,6 +167,8 @@
         <option value="$PROJECT_DIR$/ex6/views/manageposts/add.php" />
         <option value="$PROJECT_DIR$/ex6/application/controllers/managepostscontroller.php" />
         <option value="$PROJECT_DIR$/ex6/application/controllers/logincontroller.php" />
+        <option value="$PROJECT_DIR$/ex6/application/controllers/registercontroller.php" />
+        <option value="$PROJECT_DIR$/ex6/views/register/index.php" />
       </list>
     </option>
   </component>
@@ -261,6 +262,13 @@
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="manageposts" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="CIT313-Assignments" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CIT313-Assignments" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ex6" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="register" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -317,7 +325,7 @@
       <workItem from="1520400339480" duration="4256000" />
       <workItem from="1522362839290" duration="25908000" />
       <workItem from="1522629897719" duration="11691000" />
-      <workItem from="1523168668173" duration="8452000" />
+      <workItem from="1523168668173" duration="8631000" />
     </task>
     <task id="LOCAL-00001" summary="missed semi-colon">
       <created>1520401397519</created>
@@ -400,7 +408,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50307000" />
+    <option name="totallyTimeSpent" value="50486000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1436" height="877" extended-state="0" />
@@ -471,14 +479,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ex4/views/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="544" column="14" lean-forward="false" selection-start-line="544" selection-start-column="9" selection-end-line="544" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ex4/application/controllers/controller.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -742,14 +742,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex6/views/register/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ex6/views/blog/post.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -870,10 +862,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex6/application/controllers/managepostscontroller.php">
+    <entry file="file://$PROJECT_DIR$/ex6/application/controllers/logincontroller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        <state relative-caret-position="210">
+          <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
           <folding />
         </state>
       </provider>
@@ -886,10 +878,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex6/application/controllers/logincontroller.php">
+    <entry file="file://$PROJECT_DIR$/ex6/application/controllers/managepostscontroller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        <state relative-caret-position="225">
+          <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex6/application/controllers/registercontroller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex6/views/register/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
           <folding />
         </state>
       </provider>
