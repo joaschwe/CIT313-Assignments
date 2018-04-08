@@ -1,6 +1,6 @@
 
 <?php
-require_once ('application/config.php');
+
 include('views/elements/header.php');
 ?>
 
@@ -15,7 +15,7 @@ include('views/elements/header.php');
     </div>
   <?php }?>
 
-<?php include('elements/registration_form.php');
+<?php include('views/elements/registration_form.php');
 echo '<p><a href="'.BASE_URL.'">Back to home page</a></p>';
 ?>
 
