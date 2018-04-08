@@ -9,6 +9,6 @@ class View {
 
       $u = new Users();
 
-      include 'views/' . $folder . '/' . $file_name . 'php';
+      include 'views/' . $folder . '/' . $file_name . '.php';
    }
 }
