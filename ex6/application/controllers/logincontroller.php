@@ -7,8 +7,12 @@ class LoginController extends Controller{
 		//$sum = $num1+$num2+$num3;
 	   //$this->set('numbers',$sum);
    //}
-   
-   public function do_login() {
+
+    public function index() {
+
+    }
+
+    public function do_login() {
 	   //handle login
 	   $this->userObject = new Users();
 	   
