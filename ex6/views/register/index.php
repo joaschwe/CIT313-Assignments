@@ -1,7 +1,7 @@
 
 <?php
 require_once ('application/config.php');
-include('elements/header.php');
+include('views/elements/header.php');
 ?>
 
 <div class="container">
@@ -22,5 +22,5 @@ echo '<p><a href="'.BASE_URL.'">Back to home page</a></p>';
 </div>
 </div>
 
-<?php include('elements/footer.php');
+<?php include('views/elements/footer.php');
 ?>

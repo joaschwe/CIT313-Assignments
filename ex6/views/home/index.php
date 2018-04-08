@@ -1,6 +1,6 @@
 <?php
 require_once('application/config.php');
-include('elements/header.php');
+include('views/elements/header.php');
 //echo isAdmin();?>
 <script>console.log( isAdmin() );</script>
 <div class="container">
@@ -16,4 +16,4 @@ include('elements/header.php');
 
   </div>
 </div>
-<?php include('elements/footer.php');?>
+<?php include('views/elements/footer.php');?>

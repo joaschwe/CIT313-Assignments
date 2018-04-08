@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e1f436d-258a-4041-8914-5ab846eb785e" name="Default" comment="uploaded file">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ex6/views/404/404.php" afterPath="$PROJECT_DIR$/ex6/views/404/index.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ex6/views/categories/categories.php" afterPath="$PROJECT_DIR$/ex6/views/categories/index.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ex6/views/home/home.php" afterPath="$PROJECT_DIR$/ex6/views/home/index.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ex6/views/login/login.php" afterPath="$PROJECT_DIR$/ex6/views/login/index.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ex6/views/members/members.php" afterPath="$PROJECT_DIR$/ex6/views/members/index.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ex6/views/register/register.php" afterPath="$PROJECT_DIR$/ex6/views/register/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ex6/views/404/index.php" afterPath="$PROJECT_DIR$/ex6/views/404/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ex6/views/blog/addpost.php" afterPath="$PROJECT_DIR$/ex6/views/blog/addpost.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ex6/views/home/index.php" afterPath="$PROJECT_DIR$/ex6/views/home/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ex6/views/login/index.php" afterPath="$PROJECT_DIR$/ex6/views/login/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ex6/views/members/index.php" afterPath="$PROJECT_DIR$/ex6/views/members/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ex6/views/register/index.php" afterPath="$PROJECT_DIR$/ex6/views/register/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -48,7 +48,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="view.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="view.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ex6/application/view.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
@@ -58,17 +58,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ex6/views/blog/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="55" lean-forward="false" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="router.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="router.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ex6/application/router.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="555">
@@ -93,6 +83,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>right</find>
+      <find>load</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -129,7 +120,6 @@
         <option value="$PROJECT_DIR$/ex5/views/elements/header.php" />
         <option value="$PROJECT_DIR$/ex5/application/controllers/logincontroller.php" />
         <option value="$PROJECT_DIR$/ex5/index.php" />
-        <option value="$PROJECT_DIR$/ex6/views/members/index.php" />
         <option value="$PROJECT_DIR$/ex6/views/members/users.php" />
         <option value="$PROJECT_DIR$/ex6/application/controllers/memberscontroller.php" />
         <option value="$PROJECT_DIR$/ex6/application/router.php" />
@@ -141,6 +131,13 @@
         <option value="$PROJECT_DIR$/ex6/views/blog/index.php" />
         <option value="$PROJECT_DIR$/ex6/application/controllers/controller.php" />
         <option value="$PROJECT_DIR$/ex6/application/view.php" />
+        <option value="$PROJECT_DIR$/ex6/views/404/index.php" />
+        <option value="$PROJECT_DIR$/ex6/views/blog/addpost.php" />
+        <option value="$PROJECT_DIR$/ex6/views/categories/index.php" />
+        <option value="$PROJECT_DIR$/ex6/views/home/index.php" />
+        <option value="$PROJECT_DIR$/ex6/views/login/index.php" />
+        <option value="$PROJECT_DIR$/ex6/views/members/index.php" />
+        <option value="$PROJECT_DIR$/ex6/views/register/index.php" />
       </list>
     </option>
   </component>
@@ -311,7 +308,7 @@
       <workItem from="1520400339480" duration="4256000" />
       <workItem from="1522362839290" duration="25908000" />
       <workItem from="1522629897719" duration="11691000" />
-      <workItem from="1523168668173" duration="4775000" />
+      <workItem from="1523168668173" duration="5087000" />
     </task>
     <task id="LOCAL-00001" summary="missed semi-colon">
       <created>1520401397519</created>
@@ -394,13 +391,14 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46630000" />
+    <option name="totallyTimeSpent" value="46942000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1436" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14992826" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14992826" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12787724" sideWeight="0.51147777" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -464,38 +462,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ex4/application/controllers/memberscontroller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex4/application/logout.php" />
-    <entry file="file://$PROJECT_DIR$/ex4/application/controllers/logoutcontroller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex4/views/elements/admin_header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex4/views/elements/admin_footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="30" column="17" lean-forward="true" selection-start-line="0" selection-start-column="3" selection-end-line="30" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ex4/views/blog.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-115">
@@ -749,14 +715,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex6/views/members/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ex6/views/members/users.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -797,14 +755,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex6/views/home/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ex6/application/controllers/memberscontroller.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -837,22 +787,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex6/views/blog/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="55" lean-forward="false" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex6/application/view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ex6/application/controllers/controller.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -865,6 +799,78 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
           <caret line="37" column="19" lean-forward="false" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex6/views/blog/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="55" lean-forward="false" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex6/views/blog/addpost.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex6/views/404/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex6/views/categories/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex6/views/home/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex6/views/login/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex6/views/members/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="40" column="21" lean-forward="false" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex6/views/register/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex6/application/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
           <folding />
         </state>
       </provider>

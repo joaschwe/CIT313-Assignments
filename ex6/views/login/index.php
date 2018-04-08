@@ -1,6 +1,6 @@
 <?php
 require_once ('application/config.php');
-include('elements/header.php')
+include('views/elements/header.php')
 ;?>
 <div class="container">
 	<div class="page-header">
@@ -12,4 +12,4 @@ include('elements/header.php')
    
   </div>
 </div>
-<?php include('elements/footer.php');?>
+<?php include('views/elements/footer.php');?>

@@ -1,7 +1,7 @@
 
 <?php
 require_once ('application/config.php');
-include('elements/header.php');?>
+include('views/elements/header.php');?>
 
 <?php 
 if( is_array($user) ) {
@@ -38,4 +38,4 @@ if( is_array($user) ) {
 
 </div>
 
-<?php include('elements/footer.php');?>
+<?php include('views/elements/footer.php');?>
