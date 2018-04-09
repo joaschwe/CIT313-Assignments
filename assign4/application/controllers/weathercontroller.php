@@ -8,7 +8,7 @@ class WeatherController extends Controller{
 	}
 
 	public function getResults() {
-        $xml = simplexml_load_file('http://api.worldweatheronline.com/premium/v1/weather.ashx?key=c915aee8414440959f752714180904&q=46076&format=xml&num_of_days=2');
+        $xml = simplexml_load_file('http://api.wunderground.com/api/2510a1887ee3b519/conditions/q/46040.xml');
         $this->set(result,true);
         $this->set(weather, $xml);
     }
