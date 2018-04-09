@@ -1,6 +1,8 @@
 <?php
 class WeatherController extends Controller{
 
+    public $result;
+
 	public function index() {
 	    $this->set(result,false);
 	}
