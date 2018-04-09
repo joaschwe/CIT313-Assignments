@@ -2,16 +2,21 @@
 
     <div class="container">
         <div class="page-header">
-            <h1><?php echo $rss_title ?></h1>
+            <h1>Latest News from <?php echo $rss_title ?></h1>
         </div>
 
         <p>
             <?php
             $rss = simplexml_load_file('http://www.fox59.com/feed');
 //            var_dump($rss);
+            $link = $rss->channel->item->link;
 
             foreach ($rss->channel->item as $item) {
-                echo $item->title.'<br/>'.$item->link.'<br/>'.$item->pubDate.'<hr>';
+
+                echo '<h4>
+                        <a href="' . $link . '">'. $item->title . '</a> (' . $item->pubDate . ')</h4>
+                        '
+                        . $item->description . '<hr>';
             }
 
             ?>
