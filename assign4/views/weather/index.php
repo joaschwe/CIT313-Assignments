@@ -1,5 +1,8 @@
 <?php include('views/elements/header.php'); ?>
 
+<?php
+if(!$result) { ?>
+
     <div class="container" id="wx">
         <div class="page-header">
             <h1>Weather</h1>
@@ -12,9 +15,10 @@
             <button type="submit" class="btn btn-primary">Get Weather</button>
 
         </form>
-
+<?php
+}
+else {  ?>
     </div>
-
 
     <div class="container">
         <div class="page-header">
@@ -24,5 +28,8 @@
         <h4>Today's High: <?php echo $weather->weather->maxtempF; ?></h4>
         <h4>Today's Low: <?php echo $weather->weather->mintempF; ?></h4>
     </div>
+<?php
+}
+?>
 
 <?php include('views/elements/footer.php'); ?>
