@@ -15,6 +15,17 @@
             ?>
         </p>
 
+        <p>
+            <?php
+            $rss = simplexml_load_file('http://www.fox59.com/feed');
+            var_dump($rss);
+
+
+
+            ?>
+
+        </p>
+
     </div>
 
 <?php include('views/elements/footer.php'); ?>
