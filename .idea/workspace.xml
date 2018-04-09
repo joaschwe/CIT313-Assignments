@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e1f436d-258a-4041-8914-5ab846eb785e" name="Default" comment="uploaded file">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assign4/application/models/rssdisplay.php" afterPath="$PROJECT_DIR$/assign4/application/models/rssdisplay.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assign4/views/home/index.php" afterPath="$PROJECT_DIR$/assign4/views/home/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign4/application/controllers/weathercontroller.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,7 +24,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assign4/views/home/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -32,6 +32,16 @@
               <folding>
                 <marker date="1523248291000" expanded="true" signature="494:629" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="weathercontroller.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assign4/application/controllers/weathercontroller.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="4" column="151" lean-forward="false" selection-start-line="4" selection-start-column="151" selection-end-line="4" selection-end-column="151" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -124,7 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ex4/application/controllers/logoutcontroller.php" />
         <option value="$PROJECT_DIR$/ex4/views/home.php" />
         <option value="$PROJECT_DIR$/ex4/application/models/post.php" />
         <option value="$PROJECT_DIR$/ex4/views/addpost.php" />
@@ -175,6 +184,7 @@
         <option value="$PROJECT_DIR$/assign4/application/controllers/homecontroller.php" />
         <option value="$PROJECT_DIR$/assign4/application/models/rssdisplay.php" />
         <option value="$PROJECT_DIR$/assign4/views/home/index.php" />
+        <option value="$PROJECT_DIR$/assign4/application/controllers/weathercontroller.php" />
       </list>
     </option>
   </component>
@@ -215,11 +225,6 @@
             <path>
               <item name="CIT313-Assignments" type="b2602c69:ProjectViewProjectNode" />
               <item name="CIT313-Assignments" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="CIT313-Assignments" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CIT313-Assignments" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assign1" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="CIT313-Assignments" type="b2602c69:ProjectViewProjectNode" />
@@ -298,11 +303,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assign4/application/controllers" />
       <recent name="$PROJECT_DIR$/assign4/application/models" />
       <recent name="$PROJECT_DIR$/ex6/views/manageposts" />
       <recent name="$PROJECT_DIR$/ex6/views/members" />
       <recent name="$PROJECT_DIR$/ex6/views/blog" />
-      <recent name="$PROJECT_DIR$/ex6/application/controllers" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/ex6/views/manageposts" />
@@ -340,7 +345,7 @@
       <workItem from="1520400339480" duration="4256000" />
       <workItem from="1522362839290" duration="25908000" />
       <workItem from="1522629897719" duration="11691000" />
-      <workItem from="1523168668173" duration="22664000" />
+      <workItem from="1523168668173" duration="23035000" />
     </task>
     <task id="LOCAL-00001" summary="missed semi-colon">
       <created>1520401397519</created>
@@ -423,7 +428,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64519000" />
+    <option name="totallyTimeSpent" value="64890000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1436" height="877" extended-state="0" />
@@ -494,14 +499,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ex4/application/controllers/logincontroller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ex4/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -913,6 +910,14 @@
           <folding>
             <marker date="1523248291000" expanded="true" signature="494:629" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assign4/application/controllers/weathercontroller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="4" column="151" lean-forward="false" selection-start-line="4" selection-start-column="151" selection-end-line="4" selection-end-column="151" />
+          <folding />
         </state>
       </provider>
     </entry>
