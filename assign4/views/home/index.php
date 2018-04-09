@@ -2,7 +2,7 @@
 
     <div class="container">
         <div class="page-header">
-            <h1>Latest News from <?php echo $rss_title; ?></h1>
+            <h1><?php echo $rss_title ?></h1>
 
             <p>
                 <?php
@@ -19,15 +19,16 @@
 
         <p>
             <?php
-            if( is_array($items) ) {
+            $rss = simplexml_load_file('http://www.fox59.com/feed');
+//            var_dump($rss);
 
-                foreach ($items as $item) {
-                    echo $item->title . '<br/>' . $item->link . '<hr>';
-                }
+            echo '<h1>' . $rss->channel->title . '</h1>';
+            foreach ($rss->channel->item as $item) {
+                echo $item->title.'<br/>'.$item->link.'<hr>';
             }
 
-                echo $rss_article_descrip;
             ?>
+
         </p>
 
     </div>
