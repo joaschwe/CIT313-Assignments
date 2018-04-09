@@ -24,7 +24,7 @@
 
             echo '<h1>' . $rss->channel->title . '</h1>';
             foreach ($rss->channel->item as $item) {
-                echo $item->title.'<br/>'.$item->link.'<hr>';
+                echo $item->title.'<br/>'.$item->link.'<br/>'.$item->comments->pubDate.'<hr>';
             }
 
             ?>
