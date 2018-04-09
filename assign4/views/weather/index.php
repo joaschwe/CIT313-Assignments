@@ -22,7 +22,7 @@ else {  ?>
 
     <div class="container">
         <div class="page-header">
-            <h1>Current Weather for <?php echo $weather->current_observation->display_location->full; ?></h1>
+            <h1>Current Weather for <?php echo $weather->request->query; ?></h1>
         </div>
 
         <h4>Today's High: <?php echo $weather->weather->maxtempF; ?></h4>
