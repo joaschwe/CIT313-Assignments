@@ -13,7 +13,6 @@ if(!$result) { ?>
             <input type="text" name="zip" id="zip" required="zip" />
             <br/>
             <button type="submit" class="btn btn-primary">Get Weather</button>
-
         </form>
 <?php
 }
