@@ -2,7 +2,7 @@
 class HomeController extends Controller{
 
 	public function index(){
-	    $feed = 'http://fox59.com/feed';
+	    $feed = 'http://feeds.reuters.com/reuters/technologyNews';
 
 	    //instantiate object
 	    $rss = new RssDisplay($feed);
