@@ -34,10 +34,29 @@
                toggle: {text: 'source', activetext: 'wysiwyg', cssclass: 'toggle'},
                resize: {cssclass: 'resize'}
            });
-
-
        </script>
-   <?php } ?>
+
+   <?php
+   } ?>
+
+   <script>
+       $(document).ready(function() {
+           $('.post-loader').on('click', function(e) {
+               event.preventDefault();
+               var el = $(this);
+
+               $.ajax({
+                   url: el.attr('href'),
+                   type: 'GET',
+                   success: function(data) {
+                       el.parent().append(data);
+                       el.remove();
+                   }
+               });
+
+           });
+       }); //end document.ready function
+   </script>
 
 
   </body>

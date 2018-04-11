@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6e1f436d-258a-4041-8914-5ab846eb785e" name="Default" comment="uploaded file">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assign4/views/elements/footer.php" afterPath="$PROJECT_DIR$/assign4/views/elements/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assign4/views/elements/header.php" afterPath="$PROJECT_DIR$/assign4/views/elements/header.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,9 +28,11 @@
       <file leaf-file-name="footer.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assign4/views/elements/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-              <folding />
+            <state relative-caret-position="375">
+              <caret line="57" column="40" lean-forward="false" selection-start-line="57" selection-start-column="40" selection-end-line="57" selection-end-column="40" />
+              <folding>
+                <element signature="e#305#1770#0#PHP" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -300,7 +301,7 @@
       <workItem from="1520400339480" duration="4256000" />
       <workItem from="1522362839290" duration="25908000" />
       <workItem from="1522629897719" duration="11691000" />
-      <workItem from="1523168668173" duration="43440000" />
+      <workItem from="1523168668173" duration="44334000" />
     </task>
     <task id="LOCAL-00001" summary="missed semi-colon">
       <created>1520401397519</created>
@@ -383,7 +384,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85295000" />
+    <option name="totallyTimeSpent" value="86189000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1436" height="877" extended-state="0" />
@@ -882,9 +883,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assign4/views/elements/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-          <folding />
+        <state relative-caret-position="375">
+          <caret line="57" column="40" lean-forward="false" selection-start-line="57" selection-start-column="40" selection-end-line="57" selection-end-column="40" />
+          <folding>
+            <element signature="e#305#1770#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
