@@ -41,4 +41,8 @@ class RssDisplay extends Model {
 //            echo $array[$x];
 //        }
     }
+
+    public function getChannelInfo() {
+
+    }
 }

@@ -8,19 +8,16 @@
         <p>
             <?php
             $rss = simplexml_load_file('http://feeds.reuters.com/reuters/technologyNews');
-//            var_dump($rss);
+
             $link = $rss->channel->item->link;
 
+            $num_items = 8;
+
             foreach ($rss->channel->item as $item) {
-
                 echo '<h4>
-                        <a href="' . $link . '">'. $item->title . '</a> (' . $item->pubDate . ')</h4>
-                        '
-                        . $item->description . '<hr>';
-            }
-
-            ?>
-
+                        <a href="' . $link . '">' . $item->title . '</a> (' . $item->pubDate . ')</h4>
+                        ' . $item->description . '<hr>';
+            } ?>
         </p>
 
     </div>
