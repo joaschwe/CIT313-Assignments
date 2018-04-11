@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e1f436d-258a-4041-8914-5ab846eb785e" name="Default" comment="uploaded file">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign4/application/controllers/ajaxcontroller.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign4/views/ajax/get_post_content.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign4/views/ajax/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assign4/views/blog/index.php" afterPath="$PROJECT_DIR$/assign4/views/blog/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assign4/views/elements/footer.php" afterPath="$PROJECT_DIR$/assign4/views/elements/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assign4/views/elements/header.php" afterPath="$PROJECT_DIR$/assign4/views/elements/header.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,7 +14,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assign4/views/home/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
@@ -25,6 +22,16 @@
               <folding>
                 <marker date="1523421609000" expanded="true" signature="516:651" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assign4/views/elements/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -85,7 +92,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ex4/application/controllers/registercontroller.php" />
         <option value="$PROJECT_DIR$/ex4/application/controllers/logincontroller.php" />
         <option value="$PROJECT_DIR$/ex4/application/models/users.php" />
         <option value="$PROJECT_DIR$/ex4/views/elements/header.php" />
@@ -128,7 +134,6 @@
         <option value="$PROJECT_DIR$/assign4/index.php" />
         <option value="$PROJECT_DIR$/assign4/application/config.php" />
         <option value="$PROJECT_DIR$/assign4/application/models/rssdisplay.php" />
-        <option value="$PROJECT_DIR$/assign4/views/elements/header.php" />
         <option value="$PROJECT_DIR$/assign4/views/home/index.php" />
         <option value="$PROJECT_DIR$/assign4/application/controllers/homecontroller.php" />
         <option value="$PROJECT_DIR$/assign4/application/controllers/weathercontroller.php" />
@@ -136,6 +141,8 @@
         <option value="$PROJECT_DIR$/assign4/views/ajax/index.php" />
         <option value="$PROJECT_DIR$/assign4/views/blog/index.php" />
         <option value="$PROJECT_DIR$/assign4/application/controllers/ajaxcontroller.php" />
+        <option value="$PROJECT_DIR$/assign4/views/elements/header.php" />
+        <option value="$PROJECT_DIR$/assign4/views/elements/footer.php" />
       </list>
     </option>
   </component>
@@ -199,6 +206,21 @@
               <item name="CIT313-Assignments" type="b2602c69:ProjectViewProjectNode" />
               <item name="CIT313-Assignments" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="assign4" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="plugins" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="CIT313-Assignments" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CIT313-Assignments" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assign4" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="plugins" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tinyeditor" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="CIT313-Assignments" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CIT313-Assignments" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assign4" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -206,21 +228,14 @@
               <item name="CIT313-Assignments" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="assign4" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="ajax" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="elements" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="CIT313-Assignments" type="b2602c69:ProjectViewProjectNode" />
               <item name="CIT313-Assignments" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="assign4" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="blog" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="CIT313-Assignments" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CIT313-Assignments" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assign4" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="home" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="CIT313-Assignments" type="b2602c69:ProjectViewProjectNode" />
@@ -285,7 +300,7 @@
       <workItem from="1520400339480" duration="4256000" />
       <workItem from="1522362839290" duration="25908000" />
       <workItem from="1522629897719" duration="11691000" />
-      <workItem from="1523168668173" duration="42683000" />
+      <workItem from="1523168668173" duration="43440000" />
     </task>
     <task id="LOCAL-00001" summary="missed semi-colon">
       <created>1520401397519</created>
@@ -368,7 +383,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84538000" />
+    <option name="totallyTimeSpent" value="85295000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1436" height="877" extended-state="0" />
@@ -439,13 +454,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ex5/application/controllers/logincontroller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="58" lean-forward="true" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ex5/application/controllers/controller.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -747,14 +755,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assign4/views/elements/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1387">
-          <caret line="95" column="16" lean-forward="true" selection-start-line="95" selection-start-column="16" selection-end-line="95" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -869,6 +869,22 @@
           <folding>
             <marker date="1523421609000" expanded="true" signature="516:651" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assign4/views/elements/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="100" column="10" lean-forward="false" selection-start-line="100" selection-start-column="10" selection-end-line="100" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assign4/views/elements/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
