@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e1f436d-258a-4041-8914-5ab846eb785e" name="Default" comment="uploaded file">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assign4/application/controllers/weathercontroller.php" afterPath="$PROJECT_DIR$/assign4/application/controllers/weathercontroller.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assign4/views/weather/index.php" afterPath="$PROJECT_DIR$/assign4/views/weather/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,17 +26,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assign4/views/weather/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="71" lean-forward="true" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="71" />
+            <state relative-caret-position="150">
+              <caret line="10" column="77" lean-forward="false" selection-start-line="10" selection-start-column="77" selection-end-line="10" selection-end-column="77" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="weathercontroller.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="weathercontroller.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assign4/application/controllers/weathercontroller.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
@@ -185,8 +183,8 @@
         <option value="$PROJECT_DIR$/assign4/application/models/rssdisplay.php" />
         <option value="$PROJECT_DIR$/assign4/views/home/index.php" />
         <option value="$PROJECT_DIR$/assign4/views/elements/header.php" />
-        <option value="$PROJECT_DIR$/assign4/views/weather/index.php" />
         <option value="$PROJECT_DIR$/assign4/application/controllers/weathercontroller.php" />
+        <option value="$PROJECT_DIR$/assign4/views/weather/index.php" />
       </list>
     </option>
   </component>
@@ -350,7 +348,7 @@
       <workItem from="1520400339480" duration="4256000" />
       <workItem from="1522362839290" duration="25908000" />
       <workItem from="1522629897719" duration="11691000" />
-      <workItem from="1523168668173" duration="29935000" />
+      <workItem from="1523168668173" duration="34397000" />
     </task>
     <task id="LOCAL-00001" summary="missed semi-colon">
       <created>1520401397519</created>
@@ -433,7 +431,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71790000" />
+    <option name="totallyTimeSpent" value="76252000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1436" height="877" extended-state="0" />
@@ -884,14 +882,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assign4/application/models/rssdisplay.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assign4/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -910,18 +900,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assign4/application/controllers/weathercontroller.php">
+    <entry file="file://$PROJECT_DIR$/assign4/application/models/rssdisplay.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        <state relative-caret-position="464">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assign4/views/weather/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="71" lean-forward="true" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="71" />
+        <state relative-caret-position="150">
+          <caret line="10" column="77" lean-forward="false" selection-start-line="10" selection-start-column="77" selection-end-line="10" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assign4/application/controllers/weathercontroller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
           <folding />
         </state>
       </provider>
