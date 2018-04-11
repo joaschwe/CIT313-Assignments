@@ -7,7 +7,7 @@
 
         <p>
             <?php
-            $rss = simplexml_load_file('http://www.fox59.com/feed');
+            $rss = simplexml_load_file('http://feeds.reuters.com/reuters/technologyNews');
 //            var_dump($rss);
             $link = $rss->channel->item->link;
 
