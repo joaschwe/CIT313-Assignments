@@ -11,6 +11,12 @@ class HomeController extends Controller{
 
 //	    var_dump($feed_data);
 
+        $channel = $feed_data->channel;
+        $this->set('rss_channel', $channel);
+
+        $channel_items = $feed_data->channel->item;
+        $this->set('rss_channel_items', $channel_items);
+
         $channel_title = $feed_data->channel->title;
         $this->set('rss_title', $channel_title);
 
@@ -27,6 +33,6 @@ class HomeController extends Controller{
         $this->set('rss_article_pubDate', $article_pubDate);
 
 	}
-	
+
 }
 ?>

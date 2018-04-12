@@ -11,7 +11,6 @@ class RssDisplay extends Model {
         $this->feed_url = $url;
     }
 
-//    public function getFeedItems() {
     public function getFeedItems($num_items = 8) {
 
 //        if($num_items < 8){
@@ -23,6 +22,7 @@ class RssDisplay extends Model {
 
 
 
+        //return $rss object items to index.php
         $items = simplexml_load_file($this->feed_url);
         return $items;
 //        $array = (array)$items;
@@ -40,9 +40,11 @@ class RssDisplay extends Model {
 //            array[$array] = $items;
 //            echo $array[$x];
 //        }
+
+
     }
 
     public function getChannelInfo() {
-
     }
+
 }
