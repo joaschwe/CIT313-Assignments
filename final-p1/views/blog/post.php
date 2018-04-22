@@ -25,18 +25,31 @@ if( is_array($post) ) {
         <h3 style="margin-top: 50px;">View Comments</h3>
 
         <?php
-        foreach($comments as $c) {  ?>
+    if( is_array($comments) ) {
+        foreach ($comments as $c) { ?>
             <div class="well-large">
                 <?php
-                echo $c[commentText] . '<br/>';
-                echo $c[uID] . '<br/>';
-                echo $c[date];
+                echo 'commentID' . $c[commentID] . '<br/>';
+                echo 'uID' . $c[uID] . '<br/>';
+                echo 'commentText' . $c[commentText] . '<br/>';
+                echo 'date' . $c[date];
+                echo 'postID' . $c[postID];
+
                 echo '<button class="btn btn-primary">Delete</button>';
                 ?>
             </div>
 
             <?php
-        } ?>
+        }
+    }
+
+        foreach($posts as $p) {  ?>
+            <h3>
+                <a href="<?php echo BASE_URL?>blog/post/<?php echo $p['pID'];?>" title="<?php echo $p['title'];?>"><?php echo $p['title'];?></a>
+            </h3>
+
+            <?php } ?>
+
 
 
 
@@ -51,15 +64,14 @@ if( is_array($post) ) {
 
 
 <?php
-
-
         if( $u->isRegistered() ) { ?>
-            <form action="<?php echo BASE_URL?>manageposts/edit" method="post" onsubmit="editor.post()">
+            <form action="<?php echo BASE_URL?>blog/<?php echo $task?>" method="post" onsubmit="editor.post()">
                 <textarea name="contentText" placeholder="Comments." rows="3" style="width:75%;"></textarea>
                 <br/>
                 <input type="hidden" name="pID" value="<?php echo $pID?>"/>
-                <input type="hidden" name="postID" value="<?php echo $postID?>"/>
                 <input type="hidden" name="uID" value="<?php echo $uID?>"/>
+                <input type="hidden" name="postID" value="<?php echo $postID?>"/>
+
 
                 <button id="submit" type="submit" class="btn btn-primary" >Comment</button>
             </form>
