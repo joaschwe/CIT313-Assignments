@@ -10,8 +10,10 @@ if( is_array($post) ) {
 
         <?php
         if( $u->isAdmin() ) {
-            echo '<button id="submit" type="submit" class="btn btn-primary">EDIT POST</button>';
-            echo '<button id="submit" type="submit" class="btn btn-primary">DELETE POST</button>';
+            echo '<div>';
+            echo '<a href="' .BASE_URL. 'manageposts/edit/' .$pID. '" class="btn btn-primary">Edit Post</a>';
+            echo '<a href="' .BASE_URL. 'manageposts/delete/' .$pID. '" class="btn btn-primary">Delete Post</a>';
+            echo '</div>';
         }
         ?>
         <p><?php echo $content;?></p>
@@ -21,6 +23,7 @@ if( is_array($post) ) {
 
 
         <h3 style="margin-top: 50px;">View Comments</h3>
+        <div class="well-large"></div>
         <?php
         if( is_array($post) ) {
             extract($post); ?>
@@ -34,22 +37,21 @@ if( is_array($post) ) {
 
         if( $u->isRegistered() ) { ?>
             <form action="<?php echo BASE_URL?>manageposts/<?php echo $task?>" method="post" onsubmit="editor.post()">
-
-                <label for="date">Date</label>
-                <?php // set timezone
-                date_default_timezone_set('America/Indiana/Indianapolis');?>
-                <input name="date" id="date" size="16" type="date" value="<?php echo $date = date('Y-m-d H:i:s'); ?>">
-
-
-                <textarea id="tinyeditor" name="content" placeholder="Comments." rows="3" style="width:75%;"><?php echo $content?></textarea>
+                <textarea name="content" placeholder="Comments." rows="3" style="width:75%;"></textarea>
                 <br/>
                 <input type="hidden" name="pID" value="<?php echo $pID?>"/>
+                <input type="hidden" name="postID" value="<?php echo $postID?>"/>
                 <input type="hidden" name="uID" value="<?php echo $uID?>"/>
 
                 <button id="submit" type="submit" class="btn btn-primary" >Comment</button>
             </form>
         <?php
-        } ?>
+        } else { ?>
+            <br/><br/>
+            <a href="<?php echo BASE_URL?>login/" class="btn btn-primary">Log In</></a>
+        <?php
+            }
+        ?>
 
     </div>
 <?php
