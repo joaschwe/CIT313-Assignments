@@ -1,5 +1,23 @@
 <?php
-class Comment extends Model{
+class Comment extends Model {
+    
+    function getComment($pID){
+//        'SELECT com.commentID, com.uID, com.commentText, com.date, com.postID, cat.name as name, u.first_name, u.last_name
+//        FROM comments com
+//		INNER JOIN categories cat on cat.categoryid = com.categoryid
+//		INNER JOIN users u on u.uID = com.uID
+//		WHERE com.pID = ?
+//		';
+        $sql = 'SELECT com.commentID, com.uID, com.commentText, com.date, com.postID, u.first_name, u.last_name 
+        FROM comments com
+		
+		INNER JOIN users u on u.uID = com.uID
+		WHERE com.postID = ?';
+        $results = $this->db->getrow($sql, array($pID));
+        $comment = $results;
+        return $comment;
+    }
+    
 //    function getPost($pID){
 //        $sql = 'SELECT p.pID, p.title, p.content, p.uid, p.categoryid, p.date, c.name as name, u.first_name, u.last_name FROM posts p
 //		INNER JOIN categories c on c.categoryid = p.categoryid
