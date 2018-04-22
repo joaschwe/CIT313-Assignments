@@ -41,9 +41,9 @@ class Comment extends Model{
         return $posts;
     }
     public function addComment($data){
-        $sql='INSERT INTO posts (title,content,categoryID,date,uID) VALUES (?,?,?,?,1)';
+        $sql='INSERT INTO comments (commentID,uID,commentText,date,postID) VALUES (?,1,?,?,?)';
         $this->db->execute($sql,$data);
-        $message = 'Post added.';
+        $message = 'Comment added.';
         return $message;
     }
     public function updatePost($data) {
