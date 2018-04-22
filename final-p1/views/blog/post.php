@@ -14,7 +14,7 @@ if( is_array($post) ) {
         </sub>
 
 
-        <h2>View Comments</h2>
+        <h3 style="margin-top: 50px;">View Comments</h3>
         <?php
         if( is_array($comment) ) {
             extract($comment); ?>
