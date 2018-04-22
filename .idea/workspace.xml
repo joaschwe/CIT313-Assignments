@@ -2,136 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e1f436d-258a-4041-8914-5ab846eb785e" name="Default" comment="uploaded file">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/final-p1/views/css/thumbnail.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/final-p1/views/css/bootswatch.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/final-p1/views/css/variables.less" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ex6/views/css/_notes/dwsync.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ex6/views/css/bootstrap-responsive.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ex6/views/css/bootstrap-responsive.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ex6/views/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ex6/views/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ex6/views/elements/_notes/dwsync.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ex6/views/elements/footer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ex6/views/elements/header.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ex6/views/elements/login_form.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ex6/views/elements/registration_form.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/CNAME" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/amelia/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/amelia/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/amelia/bootswatch.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/amelia/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/amelia/thumbnail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/amelia/variables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/api/themes.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/cerulean/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/cerulean/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/cerulean/bootswatch.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/cerulean/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/cerulean/thumbnail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/cerulean/variables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/cosmo/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/cosmo/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/cosmo/bootswatch.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/cosmo/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/cosmo/thumbnail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/cosmo/variables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/css/bootswatch.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/cyborg/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/cyborg/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/cyborg/bootswatch.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/cyborg/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/cyborg/thumbnail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/cyborg/variables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/default/bootstrap-responsive.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/default/bootstrap-responsive.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/default/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/default/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/default/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/default/variables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/img/glyphicons-halflings-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/img/glyphicons-halflings.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/img/glyphicons_023_cogwheels.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/img/glyphicons_032_wifi_alt.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/img/glyphicons_036_file.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/img/glyphicons_265_electrical_plug.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/img/glyphicons_280_settings.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/img/glyphicons_341_github.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/img/refs/beautifulwebdesign.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/img/refs/blank.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/img/refs/bookofcss3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/img/refs/cssmissingmanual.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/img/refs/dontmakemethink.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/img/refs/eloquentjavascript.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/img/refs/goodparts.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/img/refs/htmlandcss.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/img/refs/javascriptandjquery.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/img/refs/pixelmator.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/img/refs/responsive.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/img/refs/rocketsurgery.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/img/refs/stripes.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/img/refs/transmit.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/img/refs/visualdisplay.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/img/refs/xscope.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/img/rss-icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/journal/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/journal/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/journal/bootswatch.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/journal/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/journal/thumbnail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/journal/variables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/js/application.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/js/bootswatch.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/js/bsa.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/readable/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/readable/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/readable/bootswatch.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/readable/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/readable/thumbnail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/readable/variables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/simplex/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/simplex/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/simplex/bootswatch.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/simplex/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/simplex/thumbnail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/simplex/variables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/slate/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/slate/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/slate/bootswatch.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/slate/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/slate/thumbnail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/slate/variables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/spacelab/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/spacelab/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/spacelab/bootswatch.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/spacelab/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/spacelab/thumbnail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/spacelab/variables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/spruce/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/spruce/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/spruce/bootswatch.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/spruce/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/spruce/thumbnail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/spruce/variables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/superhero/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/superhero/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/superhero/bootswatch.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/superhero/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/superhero/thumbnail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/superhero/variables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/united/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/united/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/united/bootswatch.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/united/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/united/thumbnail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/united/variables.less" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final-p1/application/config.php" afterPath="$PROJECT_DIR$/final-p1/application/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final-p1/views/css/bootstrap.css" afterPath="$PROJECT_DIR$/final-p1/views/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final-p1/views/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/final-p1/views/css/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final-p1/views/elements/header.php" afterPath="$PROJECT_DIR$/final-p1/views/elements/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final-p1/index.php" afterPath="$PROJECT_DIR$/final-p1/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -142,21 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/final-p1/application/config.php">
+      <file leaf-file-name="post.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/final-p1/views/blog/post.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="76" lean-forward="false" selection-start-line="3" selection-start-column="76" selection-end-line="3" selection-end-column="76" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/final-p1/views/elements/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-14">
-              <caret line="39" column="23" lean-forward="false" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -224,12 +85,12 @@
         <option value="$PROJECT_DIR$/final-p1/views/elements/footer.php" />
         <option value="$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/united/bootstrap.css" />
         <option value="$PROJECT_DIR$/final-p1/views/css/bootstrap.css" />
-        <option value="$PROJECT_DIR$/final-p1/index.php" />
         <option value="$PROJECT_DIR$/final-p1/application/controllers/homecontroller.php" />
         <option value="$PROJECT_DIR$/final-p1/views/home/index.php" />
         <option value="$PROJECT_DIR$/final-p1/application/models/rssdisplay.php" />
         <option value="$PROJECT_DIR$/final-p1/application/config.php" />
         <option value="$PROJECT_DIR$/final-p1/views/elements/header.php" />
+        <option value="$PROJECT_DIR$/final-p1/index.php" />
       </list>
     </option>
   </component>
@@ -291,7 +152,14 @@
               <item name="CIT313-Assignments" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="final-p1" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="elements" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="blog" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="CIT313-Assignments" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CIT313-Assignments" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="final-p1" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="manageposts" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -353,7 +221,7 @@
       <workItem from="1522629897719" duration="11691000" />
       <workItem from="1523168668173" duration="57664000" />
       <workItem from="1523827440080" duration="1435000" />
-      <workItem from="1524274293466" duration="14284000" />
+      <workItem from="1524274293466" duration="14377000" />
     </task>
     <task id="LOCAL-00001" summary="missed semi-colon">
       <created>1520401397519</created>
@@ -436,7 +304,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115238000" />
+    <option name="totallyTimeSpent" value="115331000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="8" y="23" width="1548" height="877" extended-state="0" />
@@ -507,13 +375,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ex6/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="27" lean-forward="false" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ex6/views/manageposts/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -815,14 +676,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/final-p1/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assign4/application/controllers/homecontroller.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -883,6 +736,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/final-p1/views/elements/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-14">
+          <caret line="39" column="23" lean-forward="false" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/final-p1/application/config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -891,10 +752,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/final-p1/views/elements/header.php">
+    <entry file="file://$PROJECT_DIR$/final-p1/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-14">
-          <caret line="39" column="23" lean-forward="false" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+        <state relative-caret-position="90">
+          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/final-p1/views/blog/post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
