@@ -20,24 +20,42 @@ if( is_array($post) ) {
         <sub>
             <?php echo 'Posted on ' . $date . ' by <a href="'.BASE_URL.'members/view/'. $uid.'">'. $first_name . ' ' . $last_name . '</a> in <a href="'.BASE_URL.'category/view/'. $categoryid.'">' . $name .'</a>'; ?>
         </sub>
-
+<?php } ?>
 
         <h3 style="margin-top: 50px;">View Comments</h3>
-        <div class="well-large"></div>
-        <?php
-        if( is_array($post) ) {
-            extract($post); ?>
-
-            <sub>
-                <?php echo $date . ' by <a href="' . BASE_URL . 'members/view/' . $uid . '">' . $first_name . ' ' . $last_name . '</a>'; ?>
-            </sub>
 
         <?php
-        }
+        foreach($comments as $c) {  ?>
+            <div class="well-large">
+                <?php
+                echo $c[commentText] . '<br/>';
+                echo $c[uID] . '<br/>';
+                echo $c[date];
+                echo '<button class="btn btn-primary">Delete</button>';
+                ?>
+            </div>
+
+            <?php
+        } ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<?php
+
 
         if( $u->isRegistered() ) { ?>
-            <form action="<?php echo BASE_URL?>manageposts/<?php echo $task?>" method="post" onsubmit="editor.post()">
-                <textarea name="content" placeholder="Comments." rows="3" style="width:75%;"></textarea>
+            <form action="<?php echo BASE_URL?>manageposts/edit" method="post" onsubmit="editor.post()">
+                <textarea name="contentText" placeholder="Comments." rows="3" style="width:75%;"></textarea>
                 <br/>
                 <input type="hidden" name="pID" value="<?php echo $pID?>"/>
                 <input type="hidden" name="postID" value="<?php echo $postID?>"/>
@@ -54,7 +72,5 @@ if( is_array($post) ) {
         ?>
 
     </div>
-<?php
-}?>
 
 <?php include('views/elements/footer.php');?>
