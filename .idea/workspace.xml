@@ -2,9 +2,416 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e1f436d-258a-4041-8914-5ab846eb785e" name="Default" comment="uploaded file">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final-p1/application/controllers/blogcontroller.php" afterPath="$PROJECT_DIR$/final-p1/application/controllers/blogcontroller.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final-p1/application/models/comment.php" afterPath="$PROJECT_DIR$/final-p1/application/models/comment.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final-p1/views/blog/post.php" afterPath="$PROJECT_DIR$/final-p1/views/blog/post.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/FINAL-PROJECT-OUTLINE-SP18.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/_notes/dwsync.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/config.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/controllers/_notes/dwsync.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/controllers/ajaxcontroller.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/controllers/blogcontroller.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/controllers/categoriescontroller.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/controllers/controller.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/controllers/homecontroller.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/controllers/logincontroller.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/controllers/managepostscontroller.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/controllers/memberscontroller.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/controllers/registercontroller.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/controllers/weathercontroller.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/_notes/dwsync.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/adodb-active-record.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/adodb-active-recordx.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/adodb-csvlib.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/adodb-datadict.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/adodb-error.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/adodb-errorhandler.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/adodb-errorpear.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/adodb-exceptions.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/adodb-iterator.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/adodb-lib.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/adodb-memcache.lib.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/adodb-pager.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/adodb-pear.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/adodb-perf.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/adodb-php4.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/adodb-time.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/adodb-xmlschema.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/adodb-xmlschema03.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/adodb.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/contrib/toxmlrpc.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/cute_icons_for_site/adodb.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/cute_icons_for_site/adodb2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/datadict/datadict-access.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/datadict/datadict-db2.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/datadict/datadict-firebird.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/datadict/datadict-generic.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/datadict/datadict-ibase.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/datadict/datadict-informix.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/datadict/datadict-mssql.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/datadict/datadict-mssqlnative.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/datadict/datadict-mysql.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/datadict/datadict-oci8.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/datadict/datadict-postgres.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/datadict/datadict-sapdb.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/datadict/datadict-sqlite.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/datadict/datadict-sybase.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/docs/adodb-faq.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/docs/adodb.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/docs/adodb2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/docs/docs-active-record.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/docs/docs-adodb.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/docs/docs-datadict.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/docs/docs-oracle.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/docs/docs-perf.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/docs/docs-session.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/docs/docs-session.old.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/docs/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/docs/old-changelog.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/docs/tips_portable_sql.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/docs/tute.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/drivers/adodb-access.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/drivers/adodb-ado.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/drivers/adodb-ado5.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/drivers/adodb-ado_access.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/drivers/adodb-ado_mssql.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/drivers/adodb-ads.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/drivers/adodb-borland_ibase.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/drivers/adodb-csv.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/drivers/adodb-db2.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/drivers/adodb-db2oci.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/drivers/adodb-db2ora.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/drivers/adodb-fbsql.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/drivers/adodb-firebird.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/drivers/adodb-ibase.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/drivers/adodb-informix.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/drivers/adodb-informix72.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/drivers/adodb-ldap.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/drivers/adodb-mssql.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/drivers/adodb-mssql_n.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/drivers/adodb-mssqlnative.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/drivers/adodb-mssqlpo.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/drivers/adodb-mysql.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/drivers/adodb-mysqli.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/drivers/adodb-mysqlpo.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/drivers/adodb-mysqlt.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/drivers/adodb-netezza.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/drivers/adodb-oci8.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/drivers/adodb-oci805.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/drivers/adodb-oci8po.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/drivers/adodb-oci8quercus.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/drivers/adodb-odbc.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/drivers/adodb-odbc_db2.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/drivers/adodb-odbc_mssql.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/drivers/adodb-odbc_oracle.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/drivers/adodb-odbtp.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/drivers/adodb-odbtp_unicode.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/drivers/adodb-oracle.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/drivers/adodb-pdo.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/drivers/adodb-pdo_mssql.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/drivers/adodb-pdo_mysql.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/drivers/adodb-pdo_oci.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/drivers/adodb-pdo_pgsql.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/drivers/adodb-pdo_sqlite.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/drivers/adodb-postgres.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/drivers/adodb-postgres64.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/drivers/adodb-postgres7.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/drivers/adodb-postgres8.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/drivers/adodb-postgres9.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/drivers/adodb-proxy.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/drivers/adodb-sapdb.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/drivers/adodb-sqlanywhere.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/drivers/adodb-sqlite.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/drivers/adodb-sqlite3.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/drivers/adodb-sqlitepo.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/drivers/adodb-sybase.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/drivers/adodb-sybase_ase.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/drivers/adodb-text.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/drivers/adodb-vfp.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/lang/adodb-ar.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/lang/adodb-bg.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/lang/adodb-ca.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/lang/adodb-cn.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/lang/adodb-cz.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/lang/adodb-da.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/lang/adodb-de.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/lang/adodb-en.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/lang/adodb-eo.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/lang/adodb-es.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/lang/adodb-fa.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/lang/adodb-fr.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/lang/adodb-hu.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/lang/adodb-it.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/lang/adodb-nl.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/lang/adodb-pl.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/lang/adodb-pt-br.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/lang/adodb-ro.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/lang/adodb-ru.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/lang/adodb-sv.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/lang/adodb-th.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/lang/adodb-uk.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/license.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/pear/Auth/Container/ADOdb.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/pear/auth_adodb_example.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/pear/readme.Auth.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/perf/perf-db2.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/perf/perf-informix.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/perf/perf-mssql.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/perf/perf-mssqlnative.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/perf/perf-mysql.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/perf/perf-oci8.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/perf/perf-postgres.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/pivottable.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/replicate/adodb-replicate.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/replicate/replicate-steps.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/replicate/test-tnb.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/rsfilter.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/scripts/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/scripts/TARADO5.BAT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/scripts/buildrelease.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/scripts/updateversion.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/scripts/uploadrelease.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/server.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/session/adodb-compress-bzip2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/session/adodb-compress-gzip.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/session/adodb-cryptsession.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/session/adodb-cryptsession2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/session/adodb-encrypt-mcrypt.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/session/adodb-encrypt-md5.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/session/adodb-encrypt-secret.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/session/adodb-encrypt-sha1.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/session/adodb-sess.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/session/adodb-session-clob.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/session/adodb-session-clob2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/session/adodb-session.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/session/adodb-session2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/session/adodb-sessions.mysql.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/session/adodb-sessions.oracle.clob.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/session/adodb-sessions.oracle.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/session/crypt.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/session/old/adodb-cryptsession.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/session/old/adodb-session-clob.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/session/old/adodb-session.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/session/old/crypt.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/session/session_schema.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/session/session_schema2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/tests/benchmark.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/tests/client.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/tests/pdo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/tests/test-active-record.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/tests/test-active-recs2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/tests/test-active-relations.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/tests/test-active-relationsx.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/tests/test-datadict.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/tests/test-perf.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/tests/test-pgblob.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/tests/test-php5.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/tests/test-xmlschema.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/tests/test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/tests/test2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/tests/test3.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/tests/test4.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/tests/test5.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/tests/test_rs_array.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/tests/testcache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/tests/testdatabases.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/tests/testgenid.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/tests/testmssql.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/tests/testoci8.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/tests/testoci8cursor.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/tests/testpaging.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/tests/testpear.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/tests/testsessions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/tests/time.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/tests/tmssql.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/tests/xmlschema-mssql.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/tests/xmlschema.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/toexport.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/tohtml.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/xmlschema.dtd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/xmlschema03.dtd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/xsl/convert-0.1-0.2.xsl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/xsl/convert-0.1-0.3.xsl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/xsl/convert-0.2-0.1.xsl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/xsl/convert-0.2-0.3.xsl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/xsl/remove-0.2.xsl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/adodb5/xsl/remove-0.3.xsl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/libraries/password.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/models/_notes/dwsync.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/models/categories.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/models/comment.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/models/model.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/models/post.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/models/rssdisplay.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/models/users.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/plugins/_notes/dwsync.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/plugins/tinyeditor/_notes/dwsync.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/plugins/tinyeditor/images/_notes/dwsync.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/plugins/tinyeditor/images/header-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/plugins/tinyeditor/images/icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/plugins/tinyeditor/images/resize.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/plugins/tinyeditor/tiny.editor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/plugins/tinyeditor/tiny.editor.packed.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/plugins/tinyeditor/tinyeditor.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/router.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/application/view.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/CNAME" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/amelia/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/amelia/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/amelia/bootswatch.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/amelia/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/amelia/thumbnail.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/amelia/variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/api/themes.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/cerulean/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/cerulean/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/cerulean/bootswatch.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/cerulean/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/cerulean/thumbnail.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/cerulean/variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/cosmo/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/cosmo/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/cosmo/bootswatch.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/cosmo/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/cosmo/thumbnail.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/cosmo/variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/css/bootswatch.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/cyborg/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/cyborg/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/cyborg/bootswatch.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/cyborg/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/cyborg/thumbnail.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/cyborg/variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/default/bootstrap-responsive.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/default/bootstrap-responsive.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/default/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/default/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/default/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/default/variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/img/glyphicons-halflings-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/img/glyphicons-halflings.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/img/glyphicons_023_cogwheels.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/img/glyphicons_032_wifi_alt.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/img/glyphicons_036_file.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/img/glyphicons_265_electrical_plug.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/img/glyphicons_280_settings.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/img/glyphicons_341_github.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/img/refs/beautifulwebdesign.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/img/refs/blank.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/img/refs/bookofcss3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/img/refs/cssmissingmanual.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/img/refs/dontmakemethink.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/img/refs/eloquentjavascript.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/img/refs/goodparts.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/img/refs/htmlandcss.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/img/refs/javascriptandjquery.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/img/refs/pixelmator.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/img/refs/responsive.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/img/refs/rocketsurgery.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/img/refs/stripes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/img/refs/transmit.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/img/refs/visualdisplay.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/img/refs/xscope.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/img/rss-icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/journal/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/journal/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/journal/bootswatch.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/journal/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/journal/thumbnail.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/journal/variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/js/application.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/js/bootswatch.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/js/bsa.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/readable/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/readable/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/readable/bootswatch.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/readable/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/readable/thumbnail.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/readable/variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/simplex/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/simplex/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/simplex/bootswatch.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/simplex/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/simplex/thumbnail.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/simplex/variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/slate/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/slate/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/slate/bootswatch.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/slate/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/slate/thumbnail.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/slate/variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/spacelab/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/spacelab/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/spacelab/bootswatch.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/spacelab/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/spacelab/thumbnail.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/spacelab/variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/spruce/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/spruce/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/spruce/bootswatch.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/spruce/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/spruce/thumbnail.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/spruce/variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/superhero/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/superhero/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/superhero/bootswatch.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/superhero/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/superhero/thumbnail.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/superhero/variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/united/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/united/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/united/bootswatch.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/united/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/united/thumbnail.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/united/variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/comments.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/phpinfo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/404/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/_notes/dwsync.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/ajax/get_post_content.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/ajax/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/blog/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/blog/post.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/categories/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/_notes/dwsync.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootstrap-responsive.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootstrap-responsive.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/bootswatch.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/thumbnail.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/css/variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/elements/_notes/dwsync.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/elements/footer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/elements/header.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/elements/login_form.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/elements/registration_form.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/home/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/img/_notes/dwsync.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/img/glyphicons-halflings-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/img/glyphicons-halflings.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/js/_notes/dwsync.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/js/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/login/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/manageposts/add.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/manageposts/add_comment.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/manageposts/edit.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/manageposts/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/members/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/members/users.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/register/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final-p1/views/weather/index.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/CIT313-Assignments.iml" afterPath="$PROJECT_DIR$/.idea/CIT313-Assignments.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,112 +420,12 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="post.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/final-p1/views/blog/post.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="547">
-              <caret line="38" column="12" lean-forward="false" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
-              <folding>
-                <marker date="1524386303000" expanded="true" signature="377:464" ph="..." />
-                <marker date="1524386303000" expanded="true" signature="488:523" ph="..." />
-                <marker date="1524386303000" expanded="true" signature="605:629" ph="..." />
-                <marker date="1524386303000" expanded="true" signature="605:665" ph="..." />
-                <marker date="1524386303000" expanded="true" signature="869:886" ph="..." />
-                <marker date="1524386303000" expanded="true" signature="1443:1444" ph="..." />
-                <marker date="1524386303000" expanded="true" signature="1443:1921" ph="..." />
-                <marker date="1524386303000" expanded="true" signature="1530:1540" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/final-p1/views/blog/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="add.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/final-p1/views/manageposts/add.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="28" column="10" lean-forward="true" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="managepostscontroller.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/final-p1/application/controllers/managepostscontroller.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="25" column="4" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="comment.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/final-p1/application/models/comment.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="36" lean-forward="false" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
-              <folding>
-                <marker date="1524384307000" expanded="true" signature="83:319" ph="SELECT p.pID... posts" />
-                <marker date="1524384307000" expanded="true" signature="508:547" ph="select * fro... comments" />
-                <marker date="1524384307000" expanded="true" signature="781:821" ph="select * fro... posts" />
-                <marker date="1524384307000" expanded="true" signature="1150:1366" ph="SELECT p.pID... posts" />
-                <marker date="1524384307000" expanded="true" signature="1628:1707" ph="INSERT INTO posts... " />
-                <marker date="1524384307000" expanded="true" signature="1878:1918" ph="DELETE FROM " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="blogcontroller.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/final-p1/application/controllers/blogcontroller.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="42" lean-forward="false" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="post.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/final-p1/application/models/post.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="28" column="44" lean-forward="true" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
-              <folding>
-                <marker date="1522387519000" expanded="true" signature="76:306" ph="SELECT p.pID... posts" />
-                <marker date="1522387519000" expanded="true" signature="479:512" ph="select * fro... posts" />
-                <marker date="1522387519000" expanded="true" signature="733:773" ph="select * fro... posts" />
-                <marker date="1522387519000" expanded="true" signature="1077:1289" ph="SELECT p.pID... posts" />
-                <marker date="1522387519000" expanded="true" signature="1534:1606" ph="INSERT INTO posts... " />
-                <marker date="1522387519000" expanded="true" signature="1770:1849" ph="UPDATE posts... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/final-p1/views/elements/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="89" column="64" lean-forward="false" selection-start-line="89" selection-start-column="26" selection-end-line="89" selection-end-column="64" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -135,7 +442,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ex6/application/controllers/memberscontroller.php" />
         <option value="$PROJECT_DIR$/ex6/application/controllers/blogcontroller.php" />
         <option value="$PROJECT_DIR$/ex6/application/controllers/homecontroller.php" />
         <option value="$PROJECT_DIR$/ex6/application/controllers/managepostscontroller.php" />
@@ -186,6 +492,7 @@
         <option value="$PROJECT_DIR$/final-p1/application/models/comment.php" />
         <option value="$PROJECT_DIR$/final-p1/application/controllers/blogcontroller.php" />
         <option value="$PROJECT_DIR$/final-p1/views/blog/post.php" />
+        <option value="$PROJECT_DIR$/final-p1_v2/application/config.php" />
       </list>
     </option>
   </component>
@@ -197,10 +504,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="2" />
-    <option name="y" value="23" />
-    <option name="width" value="1380" />
-    <option name="height" value="877" />
+    <option name="x" value="5" />
+    <option name="y" value="22" />
+    <option name="width" value="1474" />
+    <option name="height" value="1410" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -218,134 +525,72 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
-          <expand>
-            <path>
-              <item name="CIT313-Assignments" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CIT313-Assignments" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="CIT313-Assignments" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CIT313-Assignments" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="final-p1" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="CIT313-Assignments" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CIT313-Assignments" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="final-p1" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="CIT313-Assignments" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CIT313-Assignments" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="final-p1" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="CIT313-Assignments" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CIT313-Assignments" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="final-p1" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="blogcontroller.php" type="88303cf5:PhpFileNode" />
-            </path>
-            <path>
-              <item name="CIT313-Assignments" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CIT313-Assignments" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="final-p1" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="models" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="CIT313-Assignments" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CIT313-Assignments" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="final-p1" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="models" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="comment.php" type="88303cf5:PhpFileNode" />
-            </path>
-            <path>
-              <item name="CIT313-Assignments" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CIT313-Assignments" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="final-p1" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="models" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="comment.php" type="88303cf5:PhpFileNode" />
-              <item name="Comment" type="e2efd96b:PhpElementNode" />
-            </path>
-            <path>
-              <item name="CIT313-Assignments" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CIT313-Assignments" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="final-p1" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="models" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="post.php" type="88303cf5:PhpFileNode" />
-            </path>
-            <path>
-              <item name="CIT313-Assignments" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CIT313-Assignments" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="final-p1" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="models" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="post.php" type="88303cf5:PhpFileNode" />
-              <item name="Post" type="e2efd96b:PhpElementNode" />
-            </path>
-            <path>
-              <item name="CIT313-Assignments" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CIT313-Assignments" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="final-p1" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="CIT313-Assignments" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CIT313-Assignments" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="final-p1" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="ajax" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="CIT313-Assignments" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CIT313-Assignments" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="final-p1" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="blog" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="CIT313-Assignments" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CIT313-Assignments" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="final-p1" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="elements" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="CIT313-Assignments" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CIT313-Assignments" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="final-p1" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="login" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="CIT313-Assignments" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CIT313-Assignments" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="final-p1" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="manageposts" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="CIT313-Assignments" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CIT313-Assignments" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="final-p1" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="members" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-          </expand>
-          <select />
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CIT313-Assignments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CIT313-Assignments" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CIT313-Assignments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CIT313-Assignments" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="final-p1_v2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CIT313-Assignments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CIT313-Assignments" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="final-p1_v2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CIT313-Assignments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CIT313-Assignments" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="final-p1_v2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -401,6 +646,8 @@
       <workItem from="1523168668173" duration="57664000" />
       <workItem from="1523827440080" duration="1435000" />
       <workItem from="1524274293466" duration="30306000" />
+      <workItem from="1524429419386" duration="321000" />
+      <workItem from="1524429755617" duration="48000" />
     </task>
     <task id="LOCAL-00001" summary="missed semi-colon">
       <created>1520401397519</created>
@@ -483,34 +730,34 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131260000" />
+    <option name="totallyTimeSpent" value="131629000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2" y="23" width="1380" height="877" extended-state="0" />
-    <editor active="true" />
+    <frame x="5" y="22" width="1474" height="1410" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1980568" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19742198" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12787724" sideWeight="0.51147777" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42838874" sideWeight="0.48852223" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="processedProjectFiles" value="true" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -523,14 +770,6 @@
               </option>
               <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
                 <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
               </option>
             </State>
           </value>
@@ -554,13 +793,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assign1/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-226">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assign4/application/models/users.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="13">
@@ -586,7 +818,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="55" lean-forward="false" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -608,7 +839,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="11" column="134" lean-forward="false" selection-start-line="11" selection-start-column="134" selection-end-line="11" selection-end-column="134" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -623,7 +853,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
           <caret line="46" column="38" lean-forward="false" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -631,24 +860,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex6/views/elements/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="7" lean-forward="false" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex6/views/elements/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ex6/views/elements/footer.php" />
+    <entry file="file://$PROJECT_DIR$/ex6/views/elements/header.php" />
     <entry file="file://$PROJECT_DIR$/ex6/views/home/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -660,7 +876,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -668,7 +883,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -676,97 +890,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/final-p1/views/js/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5204">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/spacelab/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/united/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22345">
-          <caret line="5133" column="1" lean-forward="false" selection-start-line="5133" selection-start-column="1" selection-end-line="5133" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/final-p1/views/css/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/final-p1/views/css/bootswatch.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/final-p1/views/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4342">
-          <caret line="549" column="9" lean-forward="true" selection-start-line="549" selection-start-column="9" selection-end-line="549" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/united/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="15" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/final-p1/views/elements/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="55" lean-forward="false" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/amelia/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-551">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/final-p1/views/js/bootstrap.js" />
+    <entry file="file://$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/index.html" />
+    <entry file="file://$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/spacelab/bootstrap.css" />
+    <entry file="file://$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/united/bootstrap.css" />
+    <entry file="file://$PROJECT_DIR$/final-p1/views/css/index.html" />
+    <entry file="file://$PROJECT_DIR$/final-p1/views/css/bootswatch.less" />
+    <entry file="file://$PROJECT_DIR$/final-p1/views/css/bootstrap.css" />
+    <entry file="file://$PROJECT_DIR$/final-p1/views/css/bootswatch-2.1.1-1/united/index.html" />
+    <entry file="file://$PROJECT_DIR$/final-p1/views/elements/footer.php" />
+    <entry file="file://$PROJECT_DIR$/final-p1/bootswatch-2.1.1-1/amelia/index.html" />
     <entry file="file://$PROJECT_DIR$/assign4/views/elements/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="263">
           <caret line="71" column="79" lean-forward="false" selection-start-line="71" selection-start-column="68" selection-end-line="71" selection-end-column="79" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -774,7 +914,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -782,9 +921,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="32" column="45" lean-forward="false" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="45" />
-          <folding>
-            <marker date="1523829644000" expanded="true" signature="701:804" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -792,192 +928,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/final-p1/application/models/rssdisplay.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="49" column="1" lean-forward="true" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/final-p1/application/controllers/homecontroller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="20" lean-forward="false" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/final-p1/views/home/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-          <folding>
-            <marker date="1523829644000" expanded="true" signature="701:804" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/final-p1/application/config.php">
+    <entry file="file://$PROJECT_DIR$/final-p1/application/models/rssdisplay.php" />
+    <entry file="file://$PROJECT_DIR$/final-p1/application/controllers/homecontroller.php" />
+    <entry file="file://$PROJECT_DIR$/final-p1/views/home/index.php" />
+    <entry file="file://$PROJECT_DIR$/final-p1/application/config.php" />
+    <entry file="file://$PROJECT_DIR$/final-p1/index.php" />
+    <entry file="file://$PROJECT_DIR$/final-p1/views/elements/login_form.php" />
+    <entry file="file://$PROJECT_DIR$/final-p1/views/manageposts/add_comment.php" />
+    <entry file="file://$PROJECT_DIR$/final-p1/views/manageposts/edit.php" />
+    <entry file="file://$PROJECT_DIR$/final-p1/views/elements/header.php" />
+    <entry file="file://$PROJECT_DIR$/final-p1/views/ajax/index.php" />
+    <entry file="file://$PROJECT_DIR$/final-p1/views/ajax/get_post_content.php" />
+    <entry file="file://$PROJECT_DIR$/final-p1/application/controllers/ajaxcontroller.php" />
+    <entry file="file://$PROJECT_DIR$/final-p1/application/controllers/managepostscontroller.php" />
+    <entry file="file://$PROJECT_DIR$/final-p1/views/manageposts/index.php" />
+    <entry file="file://$PROJECT_DIR$/final-p1/application/models/post.php" />
+    <entry file="file://$PROJECT_DIR$/final-p1/views/manageposts/add.php" />
+    <entry file="file://$PROJECT_DIR$/final-p1/application/models/comment.php" />
+    <entry file="file://$PROJECT_DIR$/final-p1/application/controllers/blogcontroller.php" />
+    <entry file="file://$PROJECT_DIR$/final-p1/views/blog/index.php" />
+    <entry file="file://$PROJECT_DIR$/final-p1/views/blog/post.php" />
+    <entry file="file://$PROJECT_DIR$/final-p1_v2/application/config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="76" lean-forward="false" selection-start-line="3" selection-start-column="76" selection-end-line="3" selection-end-column="76" />
+          <caret line="3" column="79" lean-forward="false" selection-start-line="3" selection-start-column="79" selection-end-line="3" selection-end-column="79" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/final-p1/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/final-p1/views/elements/login_form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/final-p1/views/manageposts/add_comment.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="112" lean-forward="false" selection-start-line="23" selection-start-column="112" selection-end-line="23" selection-end-column="112" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/final-p1/views/manageposts/edit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-78">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/final-p1/views/elements/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="89" column="64" lean-forward="false" selection-start-line="89" selection-start-column="26" selection-end-line="89" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/final-p1/views/ajax/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/final-p1/views/ajax/get_post_content.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/final-p1/application/controllers/ajaxcontroller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/final-p1/application/controllers/managepostscontroller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="25" column="4" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/final-p1/views/manageposts/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="43" lean-forward="false" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/final-p1/application/models/post.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="28" column="44" lean-forward="true" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
-          <folding>
-            <marker date="1522387519000" expanded="true" signature="76:306" ph="SELECT p.pID... posts" />
-            <marker date="1522387519000" expanded="true" signature="479:512" ph="select * fro... posts" />
-            <marker date="1522387519000" expanded="true" signature="733:773" ph="select * fro... posts" />
-            <marker date="1522387519000" expanded="true" signature="1077:1289" ph="SELECT p.pID... posts" />
-            <marker date="1522387519000" expanded="true" signature="1534:1606" ph="INSERT INTO posts... " />
-            <marker date="1522387519000" expanded="true" signature="1770:1849" ph="UPDATE posts... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/final-p1/views/manageposts/add.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="28" column="10" lean-forward="true" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/final-p1/application/models/comment.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="36" lean-forward="false" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
-          <folding>
-            <marker date="1524384307000" expanded="true" signature="83:319" ph="SELECT p.pID... posts" />
-            <marker date="1524384307000" expanded="true" signature="508:547" ph="select * fro... comments" />
-            <marker date="1524384307000" expanded="true" signature="781:821" ph="select * fro... posts" />
-            <marker date="1524384307000" expanded="true" signature="1150:1366" ph="SELECT p.pID... posts" />
-            <marker date="1524384307000" expanded="true" signature="1628:1707" ph="INSERT INTO posts... " />
-            <marker date="1524384307000" expanded="true" signature="1878:1918" ph="DELETE FROM " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/final-p1/application/controllers/blogcontroller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="42" lean-forward="false" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/final-p1/views/blog/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/final-p1/views/blog/post.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="38" column="12" lean-forward="false" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
-          <folding>
-            <marker date="1524386303000" expanded="true" signature="377:464" ph="..." />
-            <marker date="1524386303000" expanded="true" signature="488:523" ph="..." />
-            <marker date="1524386303000" expanded="true" signature="605:629" ph="..." />
-            <marker date="1524386303000" expanded="true" signature="605:665" ph="..." />
-            <marker date="1524386303000" expanded="true" signature="869:886" ph="..." />
-            <marker date="1524386303000" expanded="true" signature="1443:1444" ph="..." />
-            <marker date="1524386303000" expanded="true" signature="1443:1921" ph="..." />
-            <marker date="1524386303000" expanded="true" signature="1530:1540" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
