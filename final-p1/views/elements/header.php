@@ -10,7 +10,6 @@
 
     <!-- Le styles -->
     <link href="<?php echo BASE_URL?>views/css/bootstrap.min.css" rel="stylesheet">
-    <link href="<?php echo BASE_URL?>views/css/bootswatch-2.1.1-1/united/bootstrap.css" rel="stylesheet">
     <style>
       body {
         padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
@@ -38,7 +37,7 @@
 
   <body>
 
-    <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
           <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
