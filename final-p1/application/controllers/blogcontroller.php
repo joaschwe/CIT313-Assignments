@@ -34,11 +34,18 @@ class BlogController extends Controller{
 
     public function save(){
         $this->commentObject = new Comment();
-        $data = array('commentText'=>$_POST['commentText'],'date'=>$_POST['date']);
+        $data = array( 'commentID'=>$_POST['commentID'], 'uID'=>$_POST['uID'], 'commentText'=>$_POST['commentText'], 'date'=>$_POST['date'], 'postID'=>$_POST['postID'] );
 
         $result = $this->commentObject->addComment($data);
         $this->set('message', $result);
 
+    }
+
+    public function remove() {
+        $this->commentObject = new Comment();
+        $data = array( 'commentID'=>$_POST['commentID'] );
+        $result = $this->commentObject->deleteComment($data);
+        $this->set('message', $result);
     }
 
 
