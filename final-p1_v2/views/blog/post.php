@@ -23,29 +23,23 @@ if( is_array($post) ) {
 <?php } ?>
 
         <h3 style="margin-top: 50px;">View Comments</h3>
-
         <?php
-        //var_dump is NULL
-        var_dump($comments);
-        echo '$comments is: ' . $comments;
-
-//    if( is_array($comments) ) {
-        foreach ($comments as $com) { ?>
-            <div class="well-large">
+        foreach ($comments as $c) { ?>
+            <div>
                 <?php
-                echo 'commentID' . $com[commentID] . '<br/>';
-                echo 'uID' . $com[uID] . '<br/>';
-                echo 'commentText' . $com[commentText] . '<br/>';
-                echo 'date' . $com[date];
-                echo 'postID' . $com[postID];
+                //                echo 'commentID' . $com[commentID] . '<br/>';
+                //                echo 'uID' . $com[uID] . '<br/>';
+                echo $c['commentText'] . '<br/>';
+                echo $c['date'];
+                //                echo 'postID' . $com[postID];
 
-                echo '<button class="btn btn-primary">Delete</button>';
-                ?>
+                if( $u->isAdmin() ) {
+                    echo '<br/><button class="btn btn-primary">Delete</button></br>';
+                } ?>
             </div>
 
-            <?php
-//        }
-    }  ?>
+        <?php
+        }?>
 
 
 
@@ -53,8 +47,10 @@ if( is_array($post) ) {
 <!--good        -->
 <?php
         if( $u->isRegistered() ) { ?>
-            <form action="<?php echo BASE_URL?>blog/<?php echo $task?>" method="post" onsubmit="editor.post()">
-                <textarea name="contentText" placeholder="Comments." rows="3" style="width:75%;"></textarea>
+            <form action="<?php echo BASE_URL?>blog/post/<?php echo $task?>" method="post" onsubmit="editor.post()">
+                <br>
+                <br>
+                <textarea name="commentText" placeholder="Comments" rows="3" style="width:75%;"></textarea>
                 <br/>
                 <input type="hidden" name="pID" value="<?php echo $pID?>"/>
                 <input type="hidden" name="uID" value="<?php echo $uID?>"/>

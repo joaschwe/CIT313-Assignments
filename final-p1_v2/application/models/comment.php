@@ -8,13 +8,15 @@ class Comment extends Model {
 //		INNER JOIN users u on u.uID = com.uID
 //		WHERE com.pID = ?
 //		';
-        $sql = 'SELECT com.commentID, com.uID, com.commentText, com.date, com.postID, u.first_name, u.last_name 
-        FROM comments com
-		INNER JOIN users u on u.uID = com.uID
-		WHERE com.commentID = ?';
-        $results = $this->db->getrow($sql, array($commentID));
-        $comment = $results;
-        return $comment;
+
+
+//        $sql = 'SELECT com.commentID, com.uID, com.commentText, com.date, com.postID, u.first_name, u.last_name
+//        FROM comments com
+//		INNER JOIN users u on u.uID = com.uID
+//		WHERE com.commentID = ?';
+//        $results = $this->db->getrow($sql, array($commentID));
+//        $comment = $results;
+//        return $comment;
     }
     
 //    function getPost($pID){
@@ -28,9 +30,17 @@ class Comment extends Model {
 //        $post = $results;
 //        return $post;
 //    }
-    public function getPostComments($commentID){
-        $sql = 'select * from comments where commentID = ?';
-        $results = $this->db->execute($sql, $commentID);
+//    public function getPostComments($commentID){
+//        $sql = 'select * from comments where commentID = ?';
+//        $results = $this->db->execute($sql, $commentID);
+//        while ($row=$results->fetchrow()) {
+//            $comments[] = $row;
+//        }
+//        return $comments;
+//    }
+    public function getPostComments($pID){
+        $sql = 'select * from comments where postID = ?';
+        $results = $this->db->execute($sql, $pID);
         while ($row=$results->fetchrow()) {
             $comments[] = $row;
         }
@@ -60,7 +70,7 @@ class Comment extends Model {
 //        return $posts;
 //    }
     public function addComment($data){
-        $sql='INSERT INTO comments (commentID,uID,commentText,date,postID) VALUES (?,1,?,?,?)';
+        $sql='INSERT INTO comments (uID, commentText, `date`, postID) VALUES (?,?,now(),?)';
         $this->db->execute($sql,$data);
         $message = 'Comment added.';
         return $message;

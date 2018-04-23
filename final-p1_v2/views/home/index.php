@@ -2,40 +2,15 @@
 
     <div class="container">
         <div class="page-header">
-            <h1>Latest News from <?php echo $rss_title ?></h1>
-            <h1><?php echo $rss_channel ?></h1>
+            <h1>Latest Trends in Technology</h1>
         </div>
 
-        <p><?php
-             ?>
-        </p>
-
+        <div style="width: 60%;">
+            <img style="width: 100%;" src="<?php echo BASE_URL?>views/img/techtrends_v1.png" alt="tech trends banner">
+        </div>
         <p>
-            <?php
-            $channel_info = $rss_channel;
-            foreach($channel_info->children() as $child)
-            {
-//                echo $child->getName() . ": " . $child . "<br>";
-            }
-
-
-
-            $items = $rss_channel_items;
-            $link = $items->link;
-
-            $x = 0;
-            $num_items = 8;
-
-            foreach ($items as $item) {
-                echo '<h4>
-                        <a href="' . $link . '">' . $item->title . '</a> (' . $item->pubDate . ')</h4>
-                        ' . $item->description . '<hr>';
-                if (++$x == $num_items) break;
-            } ?>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in aliquam est, id cursus diam. In molestie sollicitudin lectus, quis convallis est hendrerit nec. Nam ut enim quis ex rutrum elementum at eu enim. Curabitur rutrum magna quis feugiat tempus. Nunc sit amet mauris a lectus ullamcorper scelerisque. Cras non eros ut sapien facilisis faucibus. Mauris scelerisque et tellus eget semper. Donec accumsan libero vitae justo ultricies, vel lacinia elit tincidunt. Vivamus mattis ullamcorper efficitur. Duis tempor, ligula nec mollis dictum, neque urna vehicula risus, vel tempor tortor nibh sit amet purus. Nunc scelerisque massa nec orci cursus commodo. Vivamus aliquet nisi at elit porttitor gravida. In hac habitasse platea dictumst. Ut vitae leo commodo, scelerisque magna dignissim, sodales diam. Aliquam sed purus imperdiet, ornare ante tincidunt, posuere magna. Aliquam volutpat lectus eu ipsum pharetra volutpat.
         </p>
-
-
-
     </div>
 
 <?php include('views/elements/footer.php'); ?>
