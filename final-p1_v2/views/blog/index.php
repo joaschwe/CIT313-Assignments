@@ -6,6 +6,9 @@
     </div>
 
     <?php
+//    var_dump($posts);
+//    echo '$posts is: ' . $posts; <-- $posts is: Array
+
     foreach($posts as $p) {  ?>
         <h3>
             <a href="<?php echo BASE_URL?>blog/post/<?php echo $p['pID'];?>" title="<?php echo $p['title'];?>"><?php echo $p['title'];?></a>

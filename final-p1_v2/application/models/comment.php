@@ -1,7 +1,7 @@
 <?php
 class Comment extends Model {
     
-    function getComment($pID){
+    function getComment($commentID){
 //        'SELECT com.commentID, com.uID, com.commentText, com.date, com.postID, cat.name as name, u.first_name, u.last_name
 //        FROM comments com
 //		INNER JOIN categories cat on cat.categoryid = com.categoryid
@@ -10,10 +10,9 @@ class Comment extends Model {
 //		';
         $sql = 'SELECT com.commentID, com.uID, com.commentText, com.date, com.postID, u.first_name, u.last_name 
         FROM comments com
-		
 		INNER JOIN users u on u.uID = com.uID
-		WHERE com.postID = ?';
-        $results = $this->db->getrow($sql, array($pID));
+		WHERE com.commentID = ?';
+        $results = $this->db->getrow($sql, array($commentID));
         $comment = $results;
         return $comment;
     }
@@ -28,9 +27,9 @@ class Comment extends Model {
 //        $post = $results;
 //        return $post;
 //    }
-    public function getPostComments($postID){
-        $sql = 'select * from comments where postID = ?';
-        $results = $this->db->execute($sql, $postID);
+    public function getPostComments($commentID){
+        $sql = 'select * from comments where commentID = ?';
+        $results = $this->db->execute($sql, $commentID);
         while ($row=$results->fetchrow()) {
             $comments[] = $row;
         }

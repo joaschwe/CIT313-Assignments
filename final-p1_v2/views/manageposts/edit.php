@@ -2,7 +2,7 @@
 
 <div class="container">
 	<div class="page-header">
-   <h1>Add Post</h1>
+   <h1>Edit Post</h1>
   </div>
   
   <?php if($message){?>

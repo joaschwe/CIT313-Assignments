@@ -7,7 +7,9 @@ class ManagePostsController extends Controller{
 	protected $access = 1;
 
 	public function index() {
-
+        $this->postObject = new Post();
+        $posts = $this->postObject->getAllPosts();
+        $this->set('posts',$posts);
     }
 
 	public function add(){

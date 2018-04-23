@@ -68,14 +68,14 @@
                               <?php
                               if( $u->isAdmin() ) {
                                   ?>
-                                  <li><a href="<?php echo BASE_URL?>manageposts/">Add Blog Post</a></li>
+                                  <li><a href="<?php echo BASE_URL?>manageposts/add">Add Blog Post</a></li>
                                   <li><a href="<?php echo BASE_URL?>manageposts/">Manage Posts</a></li>
-                                  <li><a href="<?php echo BASE_URL?>manageposts/">Manage Categories</a></li>
-                                  <li><a href="<?php echo BASE_URL?>manageposts/">Manage Users</a></li>
+                                  <li><a href="<?php echo BASE_URL?>categories/">Manage Categories</a></li>
+                                  <li><a href="<?php echo BASE_URL?>members/">Manage Users</a></li>
                                   <?php
                               }
                               ?>
-                              <li><a href="<?php echo BASE_URL?>manageposts/">My Profile</a></li>
+                              <li><a href="<?php echo BASE_URL?>members/">My Profile</a></li>
                               <li><a href="<?php echo BASE_URL?>login/logout/">Log Out</a></li>
                           </ul>
 
