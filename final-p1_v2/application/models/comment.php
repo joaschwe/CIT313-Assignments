@@ -18,7 +18,8 @@ class Comment extends Model {
     }
     
 //    function getPost($pID){
-//        $sql = 'SELECT p.pID, p.title, p.content, p.uid, p.categoryid, p.date, c.name as name, u.first_name, u.last_name FROM posts p
+//        $sql = 'SELECT p.pID, p.title, p.content, p.uid, p.categoryid, p.date, c.name as name, u.first_name, u.last_name 
+//		FROM posts p
 //		INNER JOIN categories c on c.categoryid = p.categoryid
 //		INNER JOIN users u on u.uid = p.uid
 //		WHERE p.pID = ?
@@ -47,7 +48,8 @@ class Comment extends Model {
 //        if($limit > 0){
 //            $numposts = ' LIMIT '.$limit;
 //        }
-//        $sql =  'SELECT p.pID, p.title, p.content, p.uid, p.categoryid, p.date, c.name as name, u.first_name, u.last_name FROM posts p
+//        $sql =  'SELECT p.pID, p.title, p.content, p.uid, p.categoryid, p.date, c.name as name, u.first_name, u.last_name 
+//		FROM posts p
 //		INNER JOIN categories c on c.categoryid = p.categoryid
 //		INNER JOIN users u on u.uid = p.uid'.$numposts;
 //        // perform query
