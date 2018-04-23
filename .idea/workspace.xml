@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e1f436d-258a-4041-8914-5ab846eb785e" name="Default" comment="uploaded file">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/final-p1_v2/views/home/index2.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final-p1_v2/application/controllers/blogcontroller.php" afterPath="$PROJECT_DIR$/final-p1_v2/application/controllers/blogcontroller.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final-p1_v2/application/models/comment.php" afterPath="$PROJECT_DIR$/final-p1_v2/application/models/comment.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final-p1_v2/index.php" afterPath="$PROJECT_DIR$/final-p1_v2/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final-p1_v2/views/blog/post.php" afterPath="$PROJECT_DIR$/final-p1_v2/views/blog/post.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final-p1_v2/views/home/index.php" afterPath="$PROJECT_DIR$/final-p1_v2/views/home/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,8 +27,8 @@
                   <file leaf-file-name="post.php" pinned="false" current-in-tab="true">
                     <entry file="file://$PROJECT_DIR$/final-p1_v2/views/blog/post.php">
                       <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="855">
-                          <caret line="49" column="57" lean-forward="false" selection-start-line="49" selection-start-column="57" selection-end-line="49" selection-end-column="57" />
+                        <state relative-caret-position="870">
+                          <caret line="49" column="62" lean-forward="false" selection-start-line="49" selection-start-column="62" selection-end-line="49" selection-end-column="62" />
                           <folding />
                         </state>
                       </provider>
@@ -90,7 +86,7 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+              <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/final-p1_v2/views/home/index.php">
                   <provider selected="true" editor-type-id="text-editor">
                     <state relative-caret-position="105">
@@ -106,7 +102,7 @@
               <file leaf-file-name="comment.php" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/final-p1_v2/application/models/comment.php">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="-331">
+                    <state relative-caret-position="179">
                       <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
                       <folding>
                         <marker date="1524450397000" expanded="true" signature="387:580" ph="SELECT com.c... comments" />
@@ -116,6 +112,16 @@
                         <marker date="1524450397000" expanded="true" signature="2615:2691" ph="INSERT INTO comments... " />
                         <marker date="1524450397000" expanded="true" signature="2862:2902" ph="DELETE FROM " />
                       </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/final-p1_v2/index.php">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="90">
+                      <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+                      <folding />
                     </state>
                   </provider>
                 </entry>
@@ -192,7 +198,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ex6/views/members/index.php" />
         <option value="$PROJECT_DIR$/ex6/views/members/users.php" />
         <option value="$PROJECT_DIR$/ex6/views/register/index.php" />
         <option value="$PROJECT_DIR$/ex6/views/404/index.php" />
@@ -241,8 +246,9 @@
         <option value="$PROJECT_DIR$/final-p1_v2/views/blog/index.php" />
         <option value="$PROJECT_DIR$/final-p1_v2/application/models/comment.php" />
         <option value="$PROJECT_DIR$/final-p1_v2/application/controllers/blogcontroller.php" />
-        <option value="$PROJECT_DIR$/final-p1_v2/views/blog/post.php" />
         <option value="$PROJECT_DIR$/final-p1_v2/views/home/index.php" />
+        <option value="$PROJECT_DIR$/final-p1_v2/views/blog/post.php" />
+        <option value="$PROJECT_DIR$/final-p1_v2/index.php" />
       </list>
     </option>
   </component>
@@ -516,7 +522,7 @@
       <workItem from="1523827440080" duration="1435000" />
       <workItem from="1524274293466" duration="30306000" />
       <workItem from="1524429419386" duration="321000" />
-      <workItem from="1524429755617" duration="14526000" />
+      <workItem from="1524429755617" duration="15466000" />
     </task>
     <task id="LOCAL-00001" summary="missed semi-colon">
       <created>1520401397519</created>
@@ -599,7 +605,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="146107000" />
+    <option name="totallyTimeSpent" value="147047000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="9" y="22" width="1999" height="1410" extended-state="0" />
@@ -662,13 +668,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ex5/views/elements/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ex5/views/elements/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -815,21 +814,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/final-p1_v2/application/models/comment.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-331">
-          <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-          <folding>
-            <marker date="1524450397000" expanded="true" signature="387:580" ph="SELECT com.c... comments" />
-            <marker date="1524450397000" expanded="true" signature="1202:1244" ph="select * fro... comments" />
-            <marker date="1524450397000" expanded="true" signature="1493:1532" ph="select * fro... comments" />
-            <marker date="1524450397000" expanded="true" signature="2615:2637" ph="INSERT INTO comments... " />
-            <marker date="1524450397000" expanded="true" signature="2615:2691" ph="INSERT INTO comments... " />
-            <marker date="1524450397000" expanded="true" signature="2862:2902" ph="DELETE FROM " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/final-p1_v2/views/blog/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
@@ -866,8 +850,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/final-p1_v2/views/blog/post.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="49" column="57" lean-forward="false" selection-start-line="49" selection-start-column="57" selection-end-line="49" selection-end-column="57" />
+        <state relative-caret-position="870">
+          <caret line="49" column="62" lean-forward="false" selection-start-line="49" selection-start-column="62" selection-end-line="49" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/final-p1_v2/application/models/comment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+          <folding>
+            <marker date="1524450397000" expanded="true" signature="387:580" ph="SELECT com.c... comments" />
+            <marker date="1524450397000" expanded="true" signature="1202:1244" ph="select * fro... comments" />
+            <marker date="1524450397000" expanded="true" signature="1493:1532" ph="select * fro... comments" />
+            <marker date="1524450397000" expanded="true" signature="2615:2637" ph="INSERT INTO comments... " />
+            <marker date="1524450397000" expanded="true" signature="2615:2691" ph="INSERT INTO comments... " />
+            <marker date="1524450397000" expanded="true" signature="2862:2902" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/final-p1_v2/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
           <folding />
         </state>
       </provider>
