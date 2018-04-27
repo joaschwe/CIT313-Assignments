@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6e1f436d-258a-4041-8914-5ab846eb785e" name="Default" comment="uploaded file">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final-p1_v2/index.php" afterPath="$PROJECT_DIR$/final-p1_v2/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final-p1_v2/views/blog/post.php" afterPath="$PROJECT_DIR$/final-p1_v2/views/blog/post.php" />
-    </list>
+    <list default="true" id="6e1f436d-258a-4041-8914-5ab846eb785e" name="Default" comment="uploaded file" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -522,7 +519,7 @@
       <workItem from="1523827440080" duration="1435000" />
       <workItem from="1524274293466" duration="30306000" />
       <workItem from="1524429419386" duration="321000" />
-      <workItem from="1524429755617" duration="15466000" />
+      <workItem from="1524429755617" duration="15779000" />
     </task>
     <task id="LOCAL-00001" summary="missed semi-colon">
       <created>1520401397519</created>
@@ -605,7 +602,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147047000" />
+    <option name="totallyTimeSpent" value="147360000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="9" y="22" width="1999" height="1410" extended-state="0" />
