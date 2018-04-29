@@ -20,7 +20,8 @@ class ManagePostsController extends Controller{
 	
 	public function save(){
 		$this->postObject = new Post();
-		$data = array('title'=>$_POST['title'],'content'=>$_POST['content'],'category'=>$_POST['category'],'date'=>$_POST['date']);
+		$data = array('title'=>$_POST['title'],'content'=>$_POST['content'],'category'=>$_POST['category'],
+			      'date'=>$_POST['date']);
 			
 		$result = $this->postObject->addPost($data);
 		$this->set('message', $result);
@@ -46,7 +47,8 @@ class ManagePostsController extends Controller{
 	}
 	
 	public function update(){
-		$data = array('title'=>$_POST['title'],'content'=>$_POST['content'],'category'=>$_POST['category'],'date'=>$_POST['date'],'pID'=>$_POST['pID']);
+		$data = array('title'=>$_POST['title'],'content'=>$_POST['content'],'category'=>$_POST['category'],
+			      'date'=>$_POST['date'],'pID'=>$_POST['pID']);
 		$this->postObject = new Post();
 		
 		$result = $this->postObject->updatePost($data);

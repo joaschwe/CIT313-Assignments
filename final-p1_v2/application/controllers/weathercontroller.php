@@ -13,6 +13,6 @@ class WeatherController extends Controller{
         $this->set(result,true);
         $this->set(weather, $xml);
     }
-	
+
 }
 ?>

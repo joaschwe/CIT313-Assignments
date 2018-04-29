@@ -24,14 +24,11 @@ class BlogController extends Controller{
 	
 
 
-
-
 //	public function comment($postID) {
 //	    $this->commentObject = new Comment();
 //	    $comments = $this->commentObject->getPostComments($postID);
 //	    $this->set('comments', $comments);
 //}
-
 
 //    public function add(){
 //        $this->commentObject = new Comment();
@@ -41,7 +38,8 @@ class BlogController extends Controller{
 
     public function save(){
         $this->commentObject = new Comment();
-        $data = array('uID'=>$_POST['uID'], 'commentText'=>$_POST['commentText'], 'date'=>$_POST['date'], 'postID'=>$_POST['postID'] );
+        $data = array('uID'=>$_POST['uID'], 'commentText'=>$_POST['commentText'], 'date'=>$_POST['date'], 
+		      'postID'=>$_POST['postID'] );
 
         $result = $this->commentObject->addComment($data);
         $this->set('message', $result);
@@ -54,7 +52,5 @@ class BlogController extends Controller{
 //        $result = $this->commentObject->deleteComment($data);
 //        $this->set('message', $result);
 //    }
-
-
 }
 ?>
