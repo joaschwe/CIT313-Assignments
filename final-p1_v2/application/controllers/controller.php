@@ -46,7 +46,8 @@ class Controller {
 		
 		if($method && method_exists($this, $method)) {
 			 		
-					//the call_user_func_array expects an array so we create a null array if parameters is empty
+					//the call_user_func_array expects an array so we create a null array 
+					//if parameters is empty
 					if(!is_array($parameters)){
 						$parameters = array();
 					}
