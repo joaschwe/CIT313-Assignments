@@ -1,4 +1,10 @@
 <?php include('views/elements/header.php');
+echo 'All variables: <br/>
+postID: '.$_SESSION['postID'].'<br/>
+pID: '.$_SESSION['pID'].'<br/>
+uid: '.$_SESSION['uid'].'<br/>
+uID (comments): '.$_SESSION['uID'];
+
 
 if( is_array($post) ) {
     extract($post); ?>
@@ -30,8 +36,8 @@ if( is_array($post) ) {
                 //                echo 'commentID' . $com[commentID] . '<br/>';
                 //                echo 'uID' . $com[uID] . '<br/>';
                 echo $c['commentText'] . '<br/>';
-                echo $c['date'];
-                //                echo 'postID' . $com[postID];
+                echo $c['date'] . '<br/>';
+                echo 'postID:' . $c['postID'];
 
                 if( $u->isAdmin() ) {
                     echo '<br/><button class="btn btn-primary">Delete</button></br>';
@@ -47,7 +53,7 @@ if( is_array($post) ) {
 <!--good        -->
 <?php
         if( $u->isRegistered() ) { ?>
-            <form action="<?php echo BASE_URL?>blog/addComment" method="post" onsubmit="editor.post()">
+            <form action="<?php echo BASE_URL.'blog/post/'.$pID?>" method="post" onsubmit="editor.post()">
                 <br>
                 <br>
                 <textarea name="commentText" placeholder="Comments" rows="3" style="width:75%;"></textarea>
@@ -55,6 +61,7 @@ if( is_array($post) ) {
                 <input type="hidden" name="pID" value="<?php echo $pID?>"/>
                 <input type="hidden" name="uID" value="<?php echo $uID?>"/>
                 <input type="hidden" name="postID" value="<?php echo $postID?>"/>
+                <input type="hidden" name="date" value="<?php echo $date?>"/>
 
 <!--FIX-->
                 <button id="submit" type="submit" class="btn btn-primary" >Comment</button>

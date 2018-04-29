@@ -44,6 +44,9 @@ class BlogController extends Controller{
         $result = $this->commentObject->addComment($data);
         $this->set('message', $result);
 
+        //refresh the blog/post page
+        header('Location: '.BASE_URL.'blog/post/'.$_POST['postID']);
+
     }
 
 //    public function remove() {

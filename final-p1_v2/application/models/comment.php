@@ -18,7 +18,7 @@ class Comment extends Model {
 //        $comment = $results;
 //        return $comment;
     }
-    
+
 //    function getPost($pID){
 //        $sql = 'SELECT p.pID, p.title, p.content, p.uid, p.categoryid, p.date, c.name as name, u.first_name, u.last_name 
 //		FROM posts p
