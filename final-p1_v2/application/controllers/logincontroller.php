@@ -34,7 +34,7 @@ class LoginController extends Controller{
 			
 
 	   } else  {
-	   		echo '<br/>bad user<br/>';
+	   		echo '<br/>bad user<br/><br/><br/>';
 	   		echo var_dump($_POST) . '<br/>';
 
 	   }
