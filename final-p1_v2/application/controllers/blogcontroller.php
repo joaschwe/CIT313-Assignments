@@ -24,8 +24,6 @@ class BlogController extends Controller{
 	
 
 
-
-
 //	public function comment($postID) {
 //	    $this->commentObject = new Comment();
 //	    $comments = $this->commentObject->getPostComments($postID);
@@ -54,7 +52,5 @@ class BlogController extends Controller{
 //        $result = $this->commentObject->deleteComment($data);
 //        $this->set('message', $result);
 //    }
-
-
 }
 ?>
