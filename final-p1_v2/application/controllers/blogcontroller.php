@@ -38,7 +38,7 @@ class BlogController extends Controller{
 
     public function save(){
         $this->commentObject = new Comment();
-        $data = array('uID'=>$_POST['uID'], 'commentText'=>$_POST['commentText'], 'date'=>$_POST['date'], 
+        $data = array('uID'=>$_POST['uID'], 'commentText'=>$_POST['commentText'],
 		      'postID'=>$_POST['postID'] );
 
         $result = $this->commentObject->addComment($data);
