@@ -57,7 +57,7 @@ if( is_array($post) ) {
 <!--good        -->
 <?php
         if( $u->isRegistered() ) { ?>
-            <form action="<?php echo BASE_URL.'blog/post/addComment'?>" method="post" onsubmit="editor.post()">
+            <form action="<?php echo BASE_URL.'blog/post/addComment'.$pID?>" method="post" onsubmit="editor.post()">
                 <br>
                 <br>
                 <textarea name="commentText" placeholder="Comments" rows="3" style="width:75%;"></textarea>
