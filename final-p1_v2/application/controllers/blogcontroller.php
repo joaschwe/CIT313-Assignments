@@ -47,6 +47,9 @@ class BlogController extends Controller{
         //refresh the blog/post page
         header('Location: '.BASE_URL.'blog/post/'.$_POST['postID']);
 
+        var_dump($data);
+        die();
+
     }
 
 //    public function remove() {

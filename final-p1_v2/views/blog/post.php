@@ -1,9 +1,13 @@
 <?php include('views/elements/header.php');
+
+
 echo 'All variables: <br/>
 postID: '.$_SESSION['postID'].'<br/>
 pID: '.$_SESSION['pID'].'<br/>
 uid: '.$_SESSION['uid'].'<br/>
 uID (comments): '.$_SESSION['uID'];
+
+
 
 
 if( is_array($post) ) {
@@ -53,7 +57,7 @@ if( is_array($post) ) {
 <!--good        -->
 <?php
         if( $u->isRegistered() ) { ?>
-            <form action="<?php echo BASE_URL.'blog/post/'.$pID?>" method="post" onsubmit="editor.post()">
+            <form action="<?php echo BASE_URL.'blog/post/addComments'?>" method="post" onsubmit="editor.post()">
                 <br>
                 <br>
                 <textarea name="commentText" placeholder="Comments" rows="3" style="width:75%;"></textarea>
