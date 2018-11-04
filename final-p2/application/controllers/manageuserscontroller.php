@@ -5,12 +5,6 @@ class ManageUsersController extends Controller{
 
     //access for admin (user_type 1) only
     protected $access = 1;
-  
-   	public function users($uID){
-		$this->userObject = new Users();
-		$user = $this->userObject->getUser($uID);	    
-	  	$this->set('user',$user);
-   	}
 	
 	public function index(){
 		$this->userObject = new Users();
@@ -30,7 +24,7 @@ class ManageUsersController extends Controller{
         $this->set('message', $result);
         $outcome = $this->userObject->getAllUsers();
         $this->set('users',$outcome);
-        $this->set('task', 'update');
+//        $this->set('task', 'update');
     }
     public function delete(){
         $data = array('uID'=>$_POST['uID']);
@@ -39,7 +33,22 @@ class ManageUsersController extends Controller{
         $this->set('message', $result);
         $outcome = $this->userObject->getAllUsers();
         $this->set('users',$outcome);
-        $this->set('task', 'update');
+//        $this->set('task', 'update');
+    }
+
+    public function add() {
+        $this->userObject = new Users();
+        $this->set('task', 'save');
+    }
+
+    public function save() {
+        $this->userObject = new Users();
+        $password = $_POST['post_password'];
+        $passhash = password_hash($password,PASSWORD_DEFAULT);
+        $data = array('first_name'=>$_POST['first_name'],'last_name'=>$_POST['last_name'],'email'=>$_POST['email'], 'password'=>$passhash);
+        //$this->getCategories();
+        $result = $this->userObject->addUser($data);
+        $this->set('message', $result);
     }
 
 

@@ -1,15 +1,5 @@
 <?php include('views/elements/header.php');
 
-
-echo 'All variables: <br/>
-postID: '.$_SESSION['postID'].'<br/>
-pID: '.$_SESSION['pID'].'<br/>
-uid: '.$_SESSION['uid'].'<br/>
-uID (comments): '.$_SESSION['uID'];
-
-
-
-
 if( is_array($post) ) {
     extract($post); ?>
 

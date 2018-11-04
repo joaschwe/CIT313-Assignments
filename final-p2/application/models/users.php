@@ -71,13 +71,6 @@ class Users extends Model {
 		return $this->email;
 	}
 	
-	public function addUser($data){
-		$sql = 'INSERT INTO users (first_name, last_name, email, password) VALUES (?,?,?,?)'; 
-		$this->db->execute($sql,$data);
-		$message = 'User added.';
-		return $message;
-	}
-	
 	public function checkUser($email, $password) {
 		$sql = 'SELECT email, password FROM users WHERE email = ?';
 		$results = $this->db->getrow($sql, array($email) );
@@ -125,9 +118,9 @@ class Users extends Model {
         }
     }
 
-    public function updateActive($data) {
+    public function approveUser($uID) {
         $sql = 'UPDATE users SET active = 1 where uID = ?';
-        $this->db->execute($sql, $data);
+        $this->db->execute($sql, array($uID) );
         $message = "User approved.";
         return $message;
     }
@@ -135,6 +128,22 @@ class Users extends Model {
         $sql = 'DELETE FROM users where uID = ?';
         $this->db->execute($sql, $data);
         $message = "User deleted.";
+        return $message;
+    }
+
+    public function addUser($data){
+
+        $sql='INSERT INTO users (first_name,last_name,email,password) VALUES (?,?,?,?)';
+        $this->db->execute($sql,$data);
+        $message = 'User added.';
+        return $message;
+
+    }
+
+    public function updateUser($uID) {
+        $sql = 'UPDATE users SET first_name = ?, last_name = ?, email = ?, password = ? where uID = ?';
+        $this->db->execute($sql, array($uID));
+        $message = "Profile updated.";
         return $message;
     }
 	
